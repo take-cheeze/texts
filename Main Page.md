@@ -1,0 +1,1 @@
+#REDIRECT [cheeze Wiki]([Take)]

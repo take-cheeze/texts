@@ -1,0 +1,1 @@
+* [Grok](https://www.numenta.com/technology.html)
