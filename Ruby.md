@@ -21,7 +21,7 @@
 * [ruby version compatibility](http://www.ownway.info/Ruby/index.php?version)
 * [Pull request to use #line directive in ruby script.](https://github.com/ruby/ruby/pull/543)
 
-==Document==
+# Document
 * [Ruby Hackers Guide](http://i.loveruby.net/ja/rhg/book/)
 * [Document](http://www.ruby-doc.org/)
 * [minimum spec](http://www.ipa.go.jp/files/000011432.pdf)
@@ -30,23 +30,23 @@
   * service that can find most ruby document
   * little slow since it is generated dynamically
 
-==clone vs. dup==
+# clone vs. dup
 * [initialize_copy document](http://doc.ruby-lang.org/ja/2.0.0/method/Object/i/initialize_copy.html)
 * clone copies meta info of the object.
 * dup doesn't copy meta info.
 
-==rubyspec==
+# rubyspec
 * [document](http://rubyspec.org/)
 * [repository](https://github.com/rubyspec/rubyspec/)
 * can write tests like english grammer
 
-==Rake==
+# Rake
 * '''make''' like build tool that use ruby to write build script.
 * [document](http://rake.rubyforge.org/doc/rakefile_rdoc.html)
 * in mruby it use minirake that is a stand alone script that doesn't require any installation.
   * though Rakefile in mruby can be runned with normal rake
 
-==C API Programming==
+# C API Programming
 * [Ruby Extension Programming Guide](http://i.loveruby.net/w/RubyExtensionProgrammingGuide.html)
 * [Using with C++ guide](http://funktor.org/programming/cpp/embedding-ruby)
 * [writing native gem](http://patshaughnessy.net/2011/10/31/dont-be-terrified-of-building-native-extensions)

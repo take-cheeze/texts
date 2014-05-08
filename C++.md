@@ -29,26 +29,26 @@
 * [Implicit Cast](http://en.cppreference.com/w/cpp/language/implicit_cast)
 * [diff template library](https://github.com/cubicdaiya/dtl)
 
-==ABI==
+# ABI
 * [Summary](http://mentorembedded.github.io/cxx-abi/)
 * [ABI document.](http://mentorembedded.github.io/cxx-abi/abi.html)
 * [Execption handling document.](http://mentorembedded.github.io/cxx-abi/abi-eh.html)
 * [libcxx-abi spec](http://libcxxabi.llvm.org/spec.html)
 * [Internal of C++ exception handling.](http://theofilos.cs.columbia.edu/blog/2013/10/03/c-exception-handling-stack-frame-destruction/)
 
-==cfront==
+# cfront
 * prototype of C++
 * translater to C
 * [archive](http://www.softwarepreservation.org/projects/c_plus_plus/index.html#cfront)
 
-==mangling==
+# mangling
 * function name format for c++ features such as overloading
 * some mangling format doesn't have return type in it
   * this makes C++ FFI difficult
 * [libmangle](http://mingw-w64.sourceforge.net/libmangle/)
   * mangling library for visual studio
 
-==Boost.Build==
+# Boost.Build
 * [how to build](https://sites.google.com/site/boostjp/howtobuild)
 * [build using mingw](http://www.vle-project.org/wiki/Cross_compilation_Win32)
 * [stackoverflow](http://stackoverflow.com/questions/1399252/boost-cross-compile-from-linux-to-windows)
@@ -56,7 +56,7 @@
 * [how to build library used in boost](http://wikiwiki.jp/wesnoth/?MinGW%A4%C8SDLSKK%A4%C7%A5%AF%A5%ED%A5%B9%A5%D3%A5%EB%A5%C9)
 * don't forget to pass "--user-config=user-config.jam" so that it uses user-config.jam
 
-==connecting std::ofstream to stdout==
+# connecting std::ofstream to stdout
 The basic is to [do somethings to rdbuf](http://handasse.blogspot.com/2009/05/c.html)but it needs some devise to do it. 
 std::ofstream has const rdbuf() but non-const rdbuf() is hidden so we need to call it by casting to std::ostream like 
 
@@ -67,7 +67,7 @@ std::ofstream has const rdbuf() but non-const rdbuf() is hidden so we need to ca
 After output is finished restore the rdbuf that is changed. 
 Or don't use it in long running program.
 
-==Using clang from python==
+# Using clang from python
 - http://eli.thegreenplace.net/2011/07/03/parsing-c-in-python-with-clang/ 
 - http://blog.fenrir-inc.com/jp/2011/07/clang_syntax_analysis_interface_with_python.html 
 とかの記事を読んだことはあって前々から使ってみたいと思っていたんですが，スクリプト言語からC++へのバインダを生成するコードを書こうかと思って試してみました．ドキュメントがなかったり，自分の中であんまりうまく整理できてないことが多いせいか目的のモノへはまだ遠いんですが，C++がこうも簡単に使えるとは思っていなかったので楽しいです． 
@@ -76,7 +76,7 @@ Or don't use it in long running program.
 にあるpythonスクリプトがあればよかったようです．一応，バージョンによっては使えない関数があったりしてスクリプトが実行できないなんてことがあるので，libclangとバージョンを揃えないといけません． 
 今のところASTの中身を標準出力するくらいが限界なんですが，ぼちぼちもっと役に立つツールを書ければと思っています．
 
-==mcpp==
+# mcpp
 llvm-gccのプリプロセッサとgccのプリプロセッサとの挙動の違いに気がついて，さてどうしたものかと思っていたんですけど，そういえば，独立した（independentとか？）プリプロセッサがあるのを思い出して，使ってみました． 
 ウェブサイトはとりあえずここです． 
 - http://mcpp.sourceforge.net/index.html 
@@ -92,7 +92,7 @@ gccと少し違うのは，
 とりあえず，わかりやすい違いなので，sqlexer.cppの正規表現に手を加えてこっちも認識できるようにしました．これで，boost.preprocessorが使えるようにまたなりました． 
 万歳＼(^o^)／万歳
 
-==[スクリプト言語でPP](http://textt.net/take_cheeze/20110511102209/19)==
+# [スクリプト言語でPP](http://textt.net/take_cheeze/20110511102209/19)
 C++なコードをSquirrelを移植していて、Boost.PP使いたいなーと思って、色々試してたらできそうだったので、やってみました。できたときは、「俺TUEEEEE！」と思いたかったんですが、いくつか欠点がみつかって、その気分はお預けになっています。 
 まず、https://github.com/take-cheeze/sq_rpg2kmu/blob/master/CMakeLists.txtにどうやってやったのか書いてあります。cpp(C PreProcessor)をfind_programで見つけて、add_custom_commandでPP結果を出力するルールを記述、add_custom_targetで構文チェックです。まだプログラムが不十分な関係で実行できなくなっているのは、目をつむってください。 
 因みに、PPのライブラリといったら、Boost.PPしか知らないので、cppにはBoostのインクルードパスを通してあります。Boost.PPがプリプロセッサならどこでも使えるライブラリなのは幸いでした。 
@@ -101,7 +101,7 @@ C++なコードをSquirrelを移植していて、Boost.PP使いたいなーと�
 それから、まだpushましてやcommitしていないコードの話なんですが、nut.inの.inがいらない方法でできそうなので、おそらく次のコミットあたりで、拡張子を元に戻します。それから、Squirrelだけで書かれたファイルなら#includeで色々と解決しそうです。大昔に考えられた仕組みが今も使えるって素晴らしいですね！そして、jsに対するメリットも増えました。明示的に#includeしないといけないのはめんどくさかったんです。それから、インクルードガードをきっと使えますね。Boost.PPを知って以来、PPをなめていたと思い知ったんですが、今、再び実感しています。 
 うわさでは、PPはHTML生成にも使えるので、意外と万能な言語なんですね。
 
-==[PPと遅延評価](http://textt.net/take_cheeze/20110511102209/13)==
+# [PPと遅延評価](http://textt.net/take_cheeze/20110511102209/13)
 clangはgccのC++11標準ライブラリを使うと悲惨なので、C++03のままなんですが、そのせいかBoost.PPにとてもお世話になっています。C++11では簡単に書けるようなプログラムは、わざわざPPしてエミュレートですよ。 
 っと、まあ、そんな状況でやっと気がついたんですが、
 #define SOME_MACRO some_pp_func()
@@ -111,13 +111,13 @@ clangはgccのC++11標準ライブラリを使うと悲惨なので、C++03の�
 それに、テンプレートだけとかPPだけでプログラムを書けば、それはれっきとした関数型なプログラムになります。なので、実際は微妙でした。すいません。 
 別の話なんですが、BOOST_PP_ITERATEはよく知って使わないと、なんか大変ですね。REPEATとかSEQ_FOR_EACHのノリで使うと悲惨な結果しか待っていない気がします。インクルードガードの位置も独特です。さっき、気がついてやっと直しました。ついでに、そのままだったエラーもいっぱい出てきて、variadic templatesが早く使いたいです。
 
-==MPL==
+# MPL
 Boost.MPLは一度これ縛りで書いたことがあるんですが、デバッグ不能なコードになってしまって放棄した記憶があります。それ以来、遠ざかっていたんですがenable_ifで色々したくなったらどうしても必要なので、とりあえず、今日はちょこちょこ触っていました。そうしたら、不思議と以前感じた違和感がだいぶなくなって少しだけ楽しいです。 
 グーグル先生に質問しまくったところこのリンクが一番早い気がします。 
 - http://d.hatena.ne.jp/osyo-manga/20110510/1305008054 
 細かいところは、どうしてもリファレンスが必要なんですが、MPLのリファレンスは階層が深くて億劫です。ただこれはテンプレートの副産物なのでしょうがないのでしょうね。
 
-==[nutbindの書き直しとか](http://textt.net/take_cheeze/20110511102209/9)==
+# [nutbindの書き直しとか](http://textt.net/take_cheeze/20110511102209/9)
 luabindを改造したのがあまりにアレしたので、ほとんどのコードを捨てて書きなおしてます。ただ、テストは残しました。これを全部コンパイルできるようにするのが今のところの目標です。 
 それで、今日は関数呼び出しのところを実装してました。なんか自分でも嫌になるくらいPPしててキモいです。一箇所間違えると、Gなみにエラーが増殖するのはやっぱりこわくて怖気付きます。でも、そのおかげでboost/std::functionの実装方法（の一部）が理解できたのは思わぬ収穫です。 
 下の２つのページが一番参考になった気がします。 
@@ -128,7 +128,7 @@ luabindを改造したのがあまりにアレしたので、ほとんどのコ�
 それから、enable_ifの使い方を覚えました。type_traitsと組み合わせれば特殊化よりもこっちのほうが便利な気がします。それに、特殊化は継承した型には効かないそうです。 
 http://cpplover.blogspot.com/2008/01/boostenableif.html
 
-==[C++0x](http://textt.net/take_cheeze/20110511102209/1)==
+# [C++0x](http://textt.net/take_cheeze/20110511102209/1)
 
 **[http://textt.net/content/edit/20110511102209/1]
 **[http://textt.net/content/destroy/20110511102209/1]
@@ -147,14 +147,14 @@ gcc
 - http://gcc.gnu.org/projects/cxx0x.html
 
 
-==Grammer==
+# Grammer
 * [BNF](http://www.csci.csusb.edu/dick/doc/Cpp.bnf)
   * [C version](http://www.csci.csusb.edu/dick/samples/c.syntax.html)
 
-==Boost==
+# Boost
 * [mirror](https://github.com/ryppl/boost-svn)
 
-===Container===
+## Container
 * [Document](http://www.boost.org/doc/libs/release/doc/html/container.html)
 * Container utilities and boost optimized container.
   * Move semantics from boost.move
@@ -164,12 +164,12 @@ gcc
 
 
 
-==[BOOST_CURRENT_FUNCTION](http://textt.net/take_cheeze/20101027154606/14)==
+# [BOOST_CURRENT_FUNCTION](http://textt.net/take_cheeze/20101027154606/14)
 このマクロを知らなかったのでちょっと、損してました。nutbindのdebug.hppでわざわざこれと同じ事は要らなくて、<boost/current_function.hpp>をインクルードして、BOOST_CURRENT_FUNCTIONと黙って書いておけばよかったんです。
 ( https://github.com/take-cheeze/langbind/blob/204b46cc34a99f486786fc6aeb75c0118e3f1416/nutbind/detail/debug.hpp ) 
 GCCの__PRETTY_FUNCTION__はC++のテンプレート引数とかもちゃんと書いてくれるのでこれに移植性が高いものなら素晴らしいです。
 
-==[Boost.Localが採択されたらしい](http://textt.net/take_cheeze/20101027154606/13)==
+# [Boost.Localが採択されたらしい](http://textt.net/take_cheeze/20101027154606/13)
 ちょっと気乗りしてなかったので、モチベーションを上げるために採択されたとタイムラインで話題になっていたBoost.Localを調べてました。一応、英語の勉強です。(；･`д･´)  
 まず、どうゆうライブラリなのかというと、関数内でも関数を定義できるようにするものです。"struct { T operator()() {} } func;"みたいな仕組み...らしいんですが、それ以外にローカル変数の拘束や、C++03でのサポート、C99のサポートなど、とっても変態だと思います。 
 
@@ -193,7 +193,7 @@ GCCの__PRETTY_FUNCTION__はC++のテンプレート引数とかもちゃんと�
 
 (2011/12/17 移動。2011/12/15に書いた）
 
-==[boost.exception](http://textt.net/take_cheeze/20101027154606/12)==
+# [boost.exception](http://textt.net/take_cheeze/20101027154606/12)
 nutbindで例外処理をしたくなったので、いいライブラリが無いのかと、探したんですけど、luabindはboostをいっぱい使ってるということなので、boost.exceptionを使ってみることにしました。 
 まず、どのようなライブラリなのかというと 
 - C++11でのexceptionヘッダにあるexception_ptrなど（http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2007/n2179.html ） 
@@ -215,19 +215,19 @@ void throw_exception(std::exception const & e) {
 https://github.com/take-cheeze/langbind/blob/master/nutbind/detail/function_utility.hpp#L32  
 といった風に使っています。PREFIXはC++関数の呼び出しの前に、SUFFIXは後に、置くマクロです。構文上、セミコロンを書けないのが悔しいですね。12/17/11
 
-==[bcp](http://textt.net/take_cheeze/20101027154606/11)==
+# [bcp](http://textt.net/take_cheeze/20101027154606/11)
 Boostから必要なヘッダをコピーするツール
 - http://www.boost.org/doc/libs/release/tools/bcp/doc/html/index.html 
 - http://d.hatena.ne.jp/Cryolite/2005102507/21/11
 
-==[Asio](http://textt.net/take_cheeze/20101027154606/10)==
+# [Asio](http://textt.net/take_cheeze/20101027154606/10)
 非同期な入出力ライブラリ
 - ネットワークが得意らしい。
 
 まとめ
 - http://d.hatena.ne.jp/tt_clown/20110325/130104879506/11/11
 
-==[Iostreams](http://textt.net/take_cheeze/20101027154606/9)==
+# [Iostreams](http://textt.net/take_cheeze/20101027154606/9)
 - 標準ライブラリの入出力ライブラリを拡張しやすくしてくれるの。
 - zlibとかそれだけでもけっこう使える。
 
@@ -235,7 +235,7 @@ Boostから必要なヘッダをコピーするツール
 - arrayデバイスを使う。
 - reinterpret_castがめんどうだけどねー
 
-==[iterators](http://textt.net/take_cheeze/20101027154606/8)==
+# [iterators](http://textt.net/take_cheeze/20101027154606/8)
 counting_iterator 
 - http://www.boost.org/doc/libs/release/libs/iterator/doc/counting_iterator.html 
 - int型を格納するのに使うイテレータ。
@@ -244,7 +244,7 @@ counting_iterator
 - counting_rangeがrange版（irangeにした方がいいかも）
 -- http://www.boost.org/doc/libs/1_46_1/libs/range/doc/html/range/reference/ranges/counting_range.html 06/25/11
 
-==[ptr_container](http://textt.net/take_cheeze/20101027154606/7)==
+# [ptr_container](http://textt.net/take_cheeze/20101027154606/7)
 - スマポをSTLコンテナに入れるよりも効率的なコンテナ。
 - unique_ptrがサポートされておらず、auto_ptrを使う必要がある。（1.46.1現在）
 
@@ -257,13 +257,13 @@ https://github.com/freundlich/fcppt/blob/master/include/fcppt/container/ptr/inse
 - http://d.hatena.ne.jp/redboltz/20110413/1302698607 
 - http://d.hatena.ne.jp/redboltz/20110218/129798905006/25/11
 
-==[Regex](http://textt.net/take_cheeze/20101027154606/6)==
+# [Regex](http://textt.net/take_cheeze/20101027154606/6)
 - 正規表現ライブラリ。
 - C++0xに採用されている。
 - ICU( http://site.icu-project.org/ )に依存してるみたい。
 - リリース版では、コンパイル時間の長いXpressiveを使うべきかも。05/06/11
 
-==[intrusive_ptr](http://textt.net/take_cheeze/20101027154606/5)==
+# [intrusive_ptr](http://textt.net/take_cheeze/20101027154606/5)
 shared_ptrよりも手間がかかるけどshared_ptrよりも軽いポインタ。
 参照カウントの処理を自分で書かないといけない。
 - http://www.codeproject.com/KB/stl/boostsmartptr.aspx 
@@ -272,7 +272,7 @@ shared_ptrよりも手間がかかるけどshared_ptrよりも軽いポインタ
 - http://www.cs.brown.edu/~jwicks/boost/libs/smart_ptr/intrusive_ptr.html 
 - http://www.boost.org/doc/libs/1_46_1/libs/smart_ptr/intrusive_ptr.html04/29/11
 
-==[Spirit](http://textt.net/take_cheeze/20101027154606/4)==
+# [Spirit](http://textt.net/take_cheeze/20101027154606/4)
 
 **[](http://textt.net/content/edit/20101027154606/4)
 **[](http://textt.net/content/destroy/20101027154606/4)
@@ -286,47 +286,47 @@ Qi
 - http://d.hatena.ne.jp/Hossy/2008040705/21/11
 
 
-==Effective C++==
+# Effective C++
 * Best book to read after a tutorial.
 * g++ has "-Weffc++" that warns the things written in this book.
   * but inheriting warning is annoying in traits so I prefer not using it.
 
-==C++11==
+# C++11
 * C++ standard that was published in 2011
 * Many language improvements and new library mostly from boost.
 * [Support status](http://www.aristeia.com/C++11/C++11FeatureAvailability.htm)
 
-===array===
+## array
 * std::array
 * How to remove element number from your code
   * [1](http://d.hatena.ne.jp/RiSK/20110502)
   * [2](https://gist.github.com/657582)
   * use with C++11 auto keyword
 
-===Difference between boost===
+## Difference between boost
 * [enable_if](http://d.hatena.ne.jp/faith_and_brave/20080926/1222422115)
   * boost version is more short
 * No scoped_ptr.
 
-===Detection===
+## Detection
 * [official way](http://www.stroustrup.com/C++11FAQ.html#11)
 * Use BOOST_NO_XXXX macro in boost.config
 
-===function===
+## function
 * std::function
 * how use member pointer
   * set first template argument type to class type
 
-==Member pointer==
+# Member pointer
 * [example](http://ideone.com/SM00t)
 * type: RetType(Klass::*field_name)(args...)
 * instance reference calling: (instance_ref.*mem_ptr)(args)
 * instance pointer calling: (instance_ptr->*mem_ptr)(args)
 
-==[Application of std::basic_string](http://d.hatena.ne.jp/E_Mattsan/20091007/1254919101)==
+# [Application of std::basic_string](http://d.hatena.ne.jp/E_Mattsan/20091007/1254919101)
 * it's purposed to concat but it can be used in defining user defined string type.
 
-==EA STL==
+# EA STL
 * STL from Electronics Art
 * [Getting original EA STL](http://gpl.ea.com/nfsworld.html)
 * It was closed until it was opened in 2010/10 with EAWebKit

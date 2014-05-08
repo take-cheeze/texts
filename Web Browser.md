@@ -1,16 +1,16 @@
 * Software to view HTML
 
-==Extending==
+# Extending
 
-===Posting===
+## Posting
 * [tombloo](https://github.com/to/tombloo)
 * [taberareloo](https://github.com/Constellation/taberareloo)
 * Multiple service posting support.
 
-===Firefox===
+## Firefox
 * Addons
   * Needs restart
 
-===Chrome===
+## Chrome
 * Extensions
   * No restart needed

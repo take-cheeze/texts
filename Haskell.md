@@ -1,6 +1,6 @@
 * purely function programming language
 
-== Implementations ==
+#  Implementations 
 * GHC
   * Most major implementation
   * Has interpreter
@@ -9,23 +9,23 @@
     * :t gets typeof
 * Hugs
 
-==List==
+# List
 * [braces
 * [HEAD, TAIL…](])
 * [LAST](INIT…,)
 
-==Tuple==
+# Tuple
 * () braces
 
-==Type class==
+# Type class
 * Interface to define behaviour
 * In C++0x the name will be concept
 
-==Currying==
+# Currying
 * Partial Apply
 * Every function in Haskell is curried
 * By passing incomplete argument function will be partial applied
 
-==Map==
+# Map
 * Associated list
 * handles sorted list

@@ -1,6 +1,6 @@
 * [photoshop 1.0 source code](http://computerhistory.org/atchm/adobe-photoshop-source-code/)
 
-==Image Processing==
+# Image Processing
 * [HSV and RGB](http://www.technotype.net/tutorial/tutorial.php?fileId=%7BImage%20processing%7D&sectionId=%7B-converting-between-rgb-and-hsv-color-space%7D)
 * [mathematic HSV and RGB tutorial](http://hooktail.org/computer/index.php?RGB%A4%AB%A4%E9HSV%A4%D8%A4%CE%CA%D1%B4%B9%A4%C8%C9%FC%B8%B5)
 * [tutorial](http://koujinz.cocolog-nifty.com/blog/2009/04/post-b8e6.html)
@@ -11,21 +11,21 @@
 * [IPL](https://github.com/Argoday/IPL)
 * [DevIL](http://openil.sourceforge.net/)
 
-===Cairo===
+## Cairo
 * open source 2d vector image library
 * [manual](http://www.cairographics.org/manual/)
 * [ruby binding](http://jp.rubyist.net/magazine/?0019-cairo)
 
-===Resizing===
+## Resizing
 * [popular algorithms](http://emaame.com/20080901.html)
 * [http://imagingsolution.blog107.fc2.com/blog-entry-142.html]
 
-===OpenCV===
+## OpenCV
 * [stllcv](https://sourceforge.net/projects/stllcv/)
   * C++ opencv wrapper
   * [document](http://www2s.biglobe.ne.jp/~niitsuma/STLLCV/)
 
-===Boost.GIL===
+## Boost.GIL
 * generic, generic, generic image processing library included in boost
 * no libraries needed
 * [document](http://www.boost.org/doc/libs/release/libs/gil/doc/html/index.html)
@@ -44,15 +44,15 @@
 * [adobe project page](https://sourceforge.net/projects/genimglib.adobe/)
 * [bicubic](http://grayhole.blogspot.jp/2009/04/boostgil-bicubic.html)
 
-==Geotag==
+# Geotag
 * Information of where the Photo was taken.
 * Maybe used to stalk people from Internet.
 * [removing geotag with Picasa](http://support.google.com/picasa/bin/answer.py?hl=en&answer=43899)
 
-==Pixel arts converter==
+# Pixel arts converter
 * Since the power of hardware is enough for big image it needs to be converted to that can scale.
 
-===hqx===
+## hqx
 * Scaling algorithm by Maxim Stepin.
 * has hq2x, hq3x, hq4x
 * uses nearest-neighbor scaling.
@@ -60,31 +60,31 @@
 * [Wikipedia page](http://en.wikipedia.org/wiki/Hqx)
 * [demo page](http://www.hiend3d.com/demos.html)
 
-===Depixelizing pixel art===
+## Depixelizing pixel art
 * [Microsoft publication](http://research.microsoft.com/en-us/um/people/kopf/pixelart/)
 * better algorithm than hqx.
 
-==File format==
+# File format
 * Binary data to store image data.
 
-===SVG===
+## SVG
 * popular vector image format.
 * used in web standard.
 
-===GIF===
+## GIF
 * [GIFLIB](http://wwwcdf.pd.infn.it/libgif/index.html)
 * Had patent problem.
 * The only image format that has animation feature that works.
   * So animated image file is called "GIF image"
 
-===PNG===
+## PNG
 * [libpng](http://www.libpng.org/pub/png/)
   * Popular library to manipulate PNG
 * [libpng Document](http://www.libpng.org/pub/png/libpng-manual.html)
 * [Japanese Translation of libpng.txt](http://dencha.ojaru.jp/programs_07/pg_graphic_10_libpng_txt.html)
 * [png-1.2 format](http://www.libpng.org/pub/png/spec/1.2/png-1.2-pdg.html)
 
-====Using manual output====
+### Using manual output
 ```
  static void write_data(png_structp out_ptr, png_bytep data, png_size_t len) {
    reinterpret_cast<std::ostream*>(png_get_io_ptr(out_ptr))->write(
@@ -100,7 +100,7 @@
  /* write data */
 ```
 
-====Using manual input====
+### Using manual input
 ```
  static void read_data(png_structp in_ptr, png_bytep data, png_size_t len) {
    reinterpret_cast<std::istream*>(png_get_io_ptr(in_ptr))->read(
@@ -113,13 +113,13 @@
  /* read data */
 ```
 
-===BMP===
+## BMP
 * Format used in old Windows.
 * It doesn't have good compression so the file gets big
 
-===TIFF===
+## TIFF
 * [libtiff](http://www.libtiff.org/)
 
-===JPEG===
+## JPEG
 * Well used loss compression image format.
 * Uses discrete cosine transform to compress.

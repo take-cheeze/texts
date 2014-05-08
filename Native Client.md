@@ -6,7 +6,7 @@
   * Has notes about nacl_io.
 * [lua interpreter example](https://code.google.com/p/naclports/source/browse/trunk/src/ports/lua-ppapi)
 
-==Documentation== 
+# Documentation 
 * [Tutorial](https://developers.google.com/native-client/dev/devguide/tutorial)
 * [Installation Manual](https://developers.google.com/native-client/dev/sdk/download)
 * [Chromium Reference](http://www.chromium.org/nativeclient)
@@ -15,7 +15,7 @@
 * [Writing Manifest File](https://developers.google.com/native-client/devguide/coding/application-structure)
 * [FileIO coding](https://developers.google.com/native-client/dev/devguide/coding/FileIO)
 
-==Portable Native Client== 
+# Portable Native Client 
 * acronym: PNaCl
 * Uses LLVM bitcode in executable to make executable more portable.
 * When executing native client it will generate machine code with LLVM.

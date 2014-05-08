@@ -1,6 +1,6 @@
 * Squirrel is a lightweight object oriented programming language.
 
-==sq==
+# sq
 * very simple stand alone interpreter
 * can compile or run squirrel script
 * has interactive interface
@@ -15,18 +15,18 @@
   * -v: displays version infos
   * -h: prints help
 
-==Link== 
+# Link 
 * [Home Page](http://www.squirrel-lang.org/)
 * [Squirrel 3.0 Reference Manual](http://www.squirrel-lang.org/doc/squirrel3.html)
 * [Squirrel Standard Library 3.0](http://www.squirrel-lang.org/doc/sqstdlib3.html)
 
-==Binder== 
+# Binder 
 * Sqrat
   * [Project Page](http://sourceforge.net/projects/scrat/)
   * [Home Page](http://scrat.sourceforge.net/)
   * Problem with autotools build. Somehow the author forgot the header generating?
 
-==Virtual Machine Internal== 
+# Virtual Machine Internal 
 * stack based machine.
 * coroutine == lightweight thread
   * Suspend just returns SQ_SUSPEND_FLAG

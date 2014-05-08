@@ -3,7 +3,7 @@
 * [kame soft](http://ytomy.sakura.ne.jp/)
   * script distribution site
 
-==RPG Maker 95==
+# RPG Maker 95
 * String encoding is "Windows-31J"
 * Materials has prefix "A:¥Program Files¥RPGﾂｸｰﾙ95¥$(PROJECT_NAME)"
 * Use little endian
@@ -23,7 +23,7 @@
   * text that is separated with '\n'
   * it seems like equivalent of rpg2k vocabulary
 
-==RPG Maker 2000/2003==
+# RPG Maker 2000/2003
 * [Analyze result](http://rpg2kdev.sue445.net/)
 * [Clip board format](http://www.multimediaxis.de/threads/71-Detail-Wissen-und-Geheimnise-des-RPG-Makers-vorallem-f%C3%BCr-Erfahrene-Profis-lehrreich?p=2161714&viewfull=1#post2161714)
 * [Someones personal research result](http://www007.upp.so-net.ne.jp/spas13/game.html).
@@ -32,18 +32,18 @@
 * [ruby library](http://hossy.info/rpgdev/2k_save.php)
 * [report](http://www007.upp.so-net.ne.jp/spas13/game.html)
 
-===RunTime Package===
+## RunTime Package
 * [Difference between 2000 and 2003](https://easy-rpg.org/wiki/development/rtp-database/migration-2000-2003)
 * [List of RTP file](https://easy-rpg.org/wiki/development/rtp-database/2003-rtp)
 
-===Time stamp format===
+## Time stamp format
 * [Microsoft Access time stamp format](http://support.microsoft.com/kb/210276)
 * [EasyRPG implementation](https://github.com/EasyRPG/Readers/blob/master/src/lsd_reader.cpp#L29)
 * [Converting Microsoft Access timestamp to unix time](http://www.access-programmers.co.uk/forums/showthread.php?t=70481)
 * Total seconds from 1970/01/01 00:00:00 is the Unix time
 * Access begins from 1899/12/30 00:00:00 and add 1.0 per each day
 
-==Font==
+# Font
 *font-familiy
 **sans-serif: gothic
 **serif: mincho
@@ -51,14 +51,14 @@
 **11px
 * [easyrpg exfont discussion](https://easy-rpg.org/forums/viewtopic.php?f=5&t=36&p=161&hilit=font)
 
-==EasyRPG==
+# EasyRPG
 * Open source clone of RPG Maker 2k/2k3
 * Repository is hosted in [github](http://github.com/EasyRPG).
 * IRC Channel is #easyrpg in freenode. The cannel is [logged](http://easy-rpg.org/irc/log/easyrpg/).
 * [Player Document](https://easy-rpg.org/jenkins/job/EasyRPG_Documentation/ws/doc/index.html)
 * [Readers Document](https://easy-rpg.org/jenkins/job/EasyRPG_Documentation/ws/lib/readers/doc/index.html)
 
-===Font===
+## Font
 *cache generated font
 *ctx.font = '11px sans-serif'
 *way to hide canvas element: $(canvas).hide()
@@ -69,7 +69,7 @@
 **// do drawing
 **ctx.resetClip();
 
-===EasyRPG Server===
+## EasyRPG Server
 *project/
 *.json
  <code>{
@@ -137,14 +137,14 @@
 **make data submittable
 **RSS output
 
-===RPG_RT===
+## RPG_RT
 *first strike is only valid in normal attack
 
-===NaCl===
+## NaCl
 *Native Client support
 *Remove filefinder
 
-===rb_rpg_editor===
+## rb_rpg_editor
 *build GUI components from schema
 *Type
 **Integer: SpinBox

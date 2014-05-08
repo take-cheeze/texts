@@ -1,10 +1,10 @@
 * [Table](http://ash.jp/code/unitbl21.htm)
 
-==convmv==
+# convmv
 * file name encoding converter
 * [man page](http://www.j3e.de/linux/convmv/man/)
 
-==iconv==
+# iconv
 * command and library to convert character encoding
 * library
   * [windows libiconv](http://gnuwin32.sourceforge.net/packages/libiconv.htm)
@@ -12,22 +12,22 @@
   * [man page](http://pubs.opengroup.org/onlinepubs/009695399/functions/iconv.html)
   * has problem with iconv()'s 2nd argument type. some API has const but in standard non-const. so needs C++ template technique to remove error.
 
-==Locale==
+# Locale
 * [UTF-8 setting](http://developer.momonga-linux.org/wiki/?UTF-8)
 * [linux locale](http://www.linuxdocs.org/HOWTOs/Unicode-HOWTO-3.html)
 
-==Literal==
+# Literal
 * [GCC](http://gcc.gnu.org/onlinedocs/cpp/Implementation_002ddefined-behavior.html)
 * [msvc utf-8 literal](http://stackoverflow.com/questions/688760/how-to-create-a-utf-8-string-literal-in-visual-c-2008)
 * Most of the time use ASCII only in source code.
 * Use UTF-8 as possible.
 
-==[ASCII](http://en.wikipedia.org/wiki/ASCII)==
+# [ASCII](http://en.wikipedia.org/wiki/ASCII)
 * Most basic character encoding.
 * Most of the modern character encoding is based on this.
 * 0x00 to 0x7F
 
-==JIS==
+# JIS
 * [Shift_JIS table](http://charset.7jp.net/sjis.html)
 * [Japanese character encoding table](http://charset.7jp.net/)
 * [Shift_JIS and Ku,Ten](http://slashdot.jp/journal/476584/%E5%8C%BA%E7%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A8-Shift_JIS)
@@ -44,14 +44,14 @@
   * encoding that can allow JIS X 0208 and JIS X 0201
   * was popular until UTF-8 gain status
 
-==Latin==
+# Latin
 * ISO/IEC 8859-1(usually "Latin-1")
 * codepage 1252
 * Shinonome font has the support.
 * [Accent in ASCII](http://cosmoshouse.com/tools/acc-conv-j.htm)
 * [unix FAQ](http://www.cl.cam.ac.uk/~mgk25/unicode.html)
 
-==Windows==
+# Windows
 * [code page table](http://msdn.microsoft.com/en-us/library/windows/desktop/dd317756(v=vs.85).aspx)
 * If "_UNICODE" or "UNICODE" isn't defined local code page is used in string passing.
   * unicode api has "W" suffix
@@ -61,7 +61,7 @@
 * [Windows macro](http://www.ruche-home.net/program/tips/unicode)
 * [No wchar_t in Windows](http://cppcms.com/files/nowide/html/)
 
-==Unicode==
+# Unicode
 * [concept](http://marigold.sakura.ne.jp/devel/unicode/concept.html)
 * Normalization
   * use to compare unicode string
@@ -72,12 +72,12 @@
     * returned string is allocated with malloc() so needs to be deallocated with free()
     * has ruby, posgresql binding
 
-==wchar_t==
+# wchar_t
 * [
 
-===Encoding===
+## Encoding
 
-====UTF-8====
+### UTF-8
 * encoding to use unicode in "const char*" or std::string.
 * newer encoding but well used.
 * needs little complex decode but is easier to use in conventional string system.
@@ -88,16 +88,16 @@
 * [unix utf-8 filename](http://unix.stackexchange.com/questions/38055/utf-8-filenames)
 * [python utf-8 filename](http://nedbatchelder.com/blog/201106/filenames_with_accents.html)
 
-====UTF-16====
+### UTF-16
 * Mostly used in Windows.
 * needs to decode to use as Unicode so use UTF-32 as possible.
 
-====UTF-32====
+### UTF-32
 * uint32_t array of unicode.
 * good for internal use but not good for exchanging.
 * endian matters.
 
-===[Unicode Iterator](http://www.boost.org/doc/libs/release/libs/regex/doc/html/boost_regex/ref/internal_details/uni_iter.html)===
+## [Unicode Iterator](http://www.boost.org/doc/libs/release/libs/regex/doc/html/boost_regex/ref/internal_details/uni_iter.html)
 * Used to convert unicode encoding.
 * Most of the time it needs to be converted to UTF-32 first.
 * Older API(before 1.48.0) doesn't have range check so use the header that has range check.

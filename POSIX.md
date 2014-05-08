@@ -1,8 +1,8 @@
-==dirent==
+# dirent
 * [Document](http://pubs.opengroup.org/onlinepubs/007908799/xsh/dirent.h.html)
 * [Windows implementation](http://www.softagalleria.net/dirent.php)
 
-==realpath==
+# realpath
 * [man page](http://linuxjm.sourceforge.jp/html/LDP_man-pages/man3/realpath.3.html)
 * [macro in mingw](http://sourceforge.net/p/mingw/patches/256/)
 * [C++ implementation](http://insanecoding.blogspot.jp/2007/11/implementing-realpath-in-c.html)
@@ -17,7 +17,7 @@
   * [Application Registration](http://msdn.microsoft.com/en-us/library/windows/desktop/ee872121(v=vs.85).aspx)
     * how to get path of application executable
 
-==basename/dirname==
+# basename/dirname
 * [man page](http://linuxjm.sourceforge.jp/html/LDP_man-pages/man3/basename.3.html)
 * basename gets filename from path
 * dirname gets directory from path

@@ -5,33 +5,33 @@
 * [LuaDist repository](https://github.com/LuaDist/lua)
 * [luvit](https://github.com/luvit/luvit)
 
-==Document==
+# Document
 * [Lua 5.2 Reference](http://www.lua.org/manual/5.2/manual.html)
 * [Lua 5.1 Reference](http://www.lua.org/manual/5.1/manual.html)
 
-==[luvit](http://luvit.io/)==
+# [luvit](http://luvit.io/)
 * node.js like library on lua
 * [Repository](https://github.com/luvit/luvit)
 
-==[luv](https://github.com/richardhundt/luv)==
+# [luv](https://github.com/richardhundt/luv)
 * Coroutine based libuv binding in lua.
 * [Development is stopped.](https://github.com/richardhundt/luv/issues/24)
   * [Ray](https://github.com/richardhundt/ray)
 
-==luabind==
+# luabind
 * Lua C++ binder.
 * [Repository](https://github.com/luabind/luabind)
 * [Document](http://www.rasterbar.com/products/luabind/docs.html)
 
-==LuaBridge==
+# LuaBridge
 * Another Lua binder.
 * [Repository](https://github.com/vinniefalco/LuaBridge)
 
-==[luajit-lang-toolkit](https://github.com/franko/luajit-lang-toolkit)==
+# [luajit-lang-toolkit](https://github.com/franko/luajit-lang-toolkit)
 * Lua bytecode compiler written in lua.
 * Can be used as luajit frontend.
 
-==Co-Routine==
+# Co-Routine
 * [tutorial](http://lua-users.org/wiki/CoroutinesTutorial)
 * [example](http://stackoverflow.com/questions/7206411/lua-co-routines)
 * [Pass co-routine running thread it self to lua_resume](http://lua-users.org/lists/lua-l/2005-02/msg00302.html)

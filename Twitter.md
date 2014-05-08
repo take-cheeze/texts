@@ -1,13 +1,13 @@
-==API==
+# API
 * [Document](https://dev.twitter.com/docs/api|Document)
-===v1.0===
+## v1.0
 * v1.1が出たので古いAPI扱い
 * API制限の割り振りが割と自由
 * v1.0はいつまで使えるの？
   * [2013/03/05まで](https://dev.twitter.com/docs/faq#10647)
   * ６カ月の猶予がある．
 
-===v1.1===
+## v1.1
 * [list rate limit eased](http://api.techmood.jp/2013/02/22/128)
 * rss, xml廃止, jsonのみ
 * API制限の割り振りが，全体が増加した代わりに不自由
@@ -31,7 +31,7 @@
     * [https://dev.twitter.com/docs/streaming-apis/streams/site]
     * [https://dev.twitter.com/docs/streaming-apis/streams/site/control]
 
-===v1.1対応計画===
+## v1.1対応計画
 * lists/membersを15分ごとに15回requestして，idを収集
 * リスト全部15個おきにstatuses/filterコネクションを作成
 * ライブラリは [[https://github.com/ttezel/twit]] を使う

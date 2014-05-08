@@ -1,7 +1,7 @@
-==Windows==
+# Windows
 * [gdipp](https://code.google.com/p/gdipp/)
 
-==Calculating Point==
+# Calculating Point
 * [freetype guide](http://www.freetype.org/freetype2/docs/glyphs/glyphs-2.html)
 * resolution Dot per inch(DPI)
 ```
@@ -14,11 +14,11 @@
 
 ```
 
-==Freetype==
+# Freetype
 * Free font engine
 * [API Reference](http://www.freetype.org/freetype2/docs/reference/ft2-index.html)
 
-===Mono bitmap===
+## Mono bitmap
 * [printing bitmap](http://ncl.sakura.ne.jp/doc/ja/comp/freetype-memo.html)
 * 0x80 means that most left pixel of this octed is true.
 * 0x01 means that most right pixel of this octed is true.
@@ -43,16 +43,16 @@
  
 ```
 
-==Family name==
+# Family name
 * Sans-serif: Gothic
 * Serif: Mincho
 
-==IPA Font==
+# IPA Font
 * [Download page](http://ossipedia.ipa.go.jp/ipafont/index.html)
 * Free true type/open type font.
 * Little big.
 
-==Shinonome font==
+# Shinonome font
 * [Download page](http://openlab.ring.gr.jp/efont/shinonome/)
 * Free bitmap font.
 * "bfd" format is used.

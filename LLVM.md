@@ -1,23 +1,23 @@
-==Book==
+# Book
 * [きつねさんでもわかるLLVM](http://tatsu-zine.com/books/llvm)
 
-==Document==
+# Document
 * [portal](http://llvm.org/docs/)
 * [Programmers Manual](http://llvm.org/docs/ProgrammersManual.html)
   * good document to read before reading LLVM code
 
-==Repository==
+# Repository
 * [github mirror](https://github.com/llvm-mirror)
 
-==bitcode==
+# bitcode
 * binary expression of LLVM IR
 
-==LLVM IR==
+# LLVM IR
 * language used in LLVM
 * has few kind of expression
 * [Japanese langauge reference](http://www.h3.dion.ne.jp/~mu-ra/llvm/LangRefJ.html)
 
-==clang==
+# clang
 * Sub project of LLVM.
 * C/C++/Objective-C compiler that use LLVM as a backend.
 * Grown to a compiler that can be compared with GCC because of GPL 3 update.
@@ -29,7 +29,7 @@
 * [Cling](http://root.cern.ch/drupal/content/cling)
   * C++ interpreter using LLVM/Clang
 
-===Plugin===
+## Plugin
 * [llvm.org document](http://clang.llvm.org/docs/ClangPlugins.html)
 * [Official plugin examples.](https://github.com/llvm-mirror/clang/tree/master/examples)
   * [Tutorial of it.](http://kevinaboos.wordpress.com/2013/07/29/clang-tutorial-part-iii-plugin-example/)

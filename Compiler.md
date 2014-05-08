@@ -2,30 +2,30 @@
 * [generating iOS binary without Xcode](http://d.hatena.ne.jp/kazuhooku/20130129/1359452808)
 * [generating static library with Makefile](https://gist.github.com/j0sh/895945)
 
-==ABI==
+# ABI
 * Application Binary Interface
 * [pass by value ABI](https://github.com/AndrejMitrovic/dgen/wiki/Pass-By-Value-ABI)
 
-==EABI==
+# EABI
 * Embedded ABI
 * Used in ARM
 * [EABI and OABI](http://www.oidon.net/linux/arm-eabi-oabi)
 * [Using EABI](http://jr0bak.homelinux.net/~imai/linux/arm_gcc_badknowhow/arm_gcc_badknowhow-8.html)
 
-==Predefined macro==
+# Predefined macro
 * [getting GCC's predefined macro](http://mkosaki.blog46.fc2.com/blog-entry-232.html)
 * [wiki](http://sourceforge.net/p/predef/wiki/Home/)
 * [Apple macro](http://www.opensource.apple.com/source/CarbonHeaders/CarbonHeaders-18.1/TargetConditionals.h)
 
-==TCC==
+# TCC
 * [old page](http://bellard.org/tcc/)
 * [Current Repository](http://repo.or.cz/w/tinycc.git)
 * libtcc: tiny C compiler that allows C as a scripting language.
 
-==GCC==
+# GCC
 * [link options](http://gcc.gnu.org/onlinedocs/gcc/Link-Options.html)
 
-===g++===
+## g++
 * static linking libstdc++
   * pass '''-static-libstcc++''' in executable output
   * it may break some C++ project using '''dlopen'''
@@ -33,21 +33,21 @@
   * [about dlopen](http://gcc.gnu.org/ml/gcc-help/2009-12/msg00186.html)
   * [dependency comparison](http://www.trilithium.com/johan/2005/06/static-libstdc/)
 
-==Finding default compiler options==
+# Finding default compiler options
 * clang++/g++
   * regex the output of following command
   * "${COMPILER} -v -x c++ /dev/null -fsyntax-only"
 
-==COINS==
+# COINS
 * Compiler infrastructure written in Java
 * [Project Page](@http://sourceforge.net/projects/coins-project/)
 
-==LLVM==
+# LLVM
 * Famous compiler infrastructure written in C++
 * [Project Page](@http://llvm.org/)
 * Has debugger called LLDB
 
-===clang===
+## clang
 * C/C++/Obj-C compiler
 * sub project of LLVM
 * GPL free licensed
@@ -72,20 +72,20 @@
 * [clang selecting](http://d.hatena.ne.jp/fu7mu4/20120217)
   * sudo port select clang $version
 
-===[ELLCC](http://ellcc.org/)===
+## [ELLCC](http://ellcc.org/)
 * The Embedded LLVM Compiler Collection
 * [Manual](http://ellcc.org/ellcc/libecc/doc/)
 
-==mingw==
+# mingw
 * Windows GCC compiler.
 * Can be used as cross compiler.
 
-===mingw-w64===
+## mingw-w64
 * [Home page](http://mingw-w64.sourceforge.net/)
 * [releases](http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/)
 * mingw fork that supports win64
 
-===Package===
+## Package
 * [mingwのパッケージマネージャ](http://textt.net/take_cheeze/20110413083050/9)
 * https://github.com/mkbosmans/download-mingw-rpm
 にあるPythonスクリプトです．なぜか，python3を使っているみたいなので，ちゃんとpython3を入れましょう．   
@@ -103,7 +103,7 @@
 * https://build.opensuse.org/project/packages?project=windows%3Amingw%3Awin32
 に書いてあるものだけです．無いものは自分でビルドするなりしないといけないとおもいます．
 
-===CMake toolchain script===
+## CMake toolchain script
 
 * http://www.cmake.org/Wiki/CmakeMingw
 にあるtoolchain scriptを
@@ -123,7 +123,7 @@
 * http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/119413
 * http://sourceware.org/ml/ecos-discuss/2000-04/msg00214.html
 
-==Ruby on PSP==
+# Ruby on PSP
 extとかがまだ不完全だけどpushした。
 * https://github.com/take-cheeze/psplibraries/commit/6e70df33dfd04f318f7eb0103352783458baaa97
 * seekdirとtelldirがない環境だと不便。
@@ -131,7 +131,7 @@ extとかがまだ不完全だけどpushした。
 * 本家に取り込んでもらった。
 -* https://github.com/pspdev/psplibraries/commits/master
 
-===pthreads-emb===
+## pthreads-emb
 [pthreads-emb](http://textt.net/take_cheeze/20110413083050/5)
 * pthread-embによく間違える。
 
@@ -149,7 +149,7 @@ pthreads-embのpthread_tをvoid*にする。
 * https://github.com/blog/12-tarball-downloads tarballの落とし方
 * https://github.com/take-cheeze/pthreads-emb
 
-===expat===
+## expat
 psplibrariesにexpatをインストールした時のメモ
 * sourceforge.netからファイルを落とす方法
 * http://d.hatena.ne.jp/pikio/20090915/1253052588
@@ -163,7 +163,7 @@ sourceforge.netからのダウンロード
 ライブラリがうまくリンクされない   
 -LIBSじゃなくてLDFLAGSに"-lc -lpspuser"を渡す。
 
-==CMake toolchain script==
+# CMake toolchain script
 本家
 * http://www.cmake.org/Wiki/CMake_Cross_Compiling
 自分の試み
@@ -174,7 +174,7 @@ iOS
 * https://sites.google.com/site/michaelsafyan/coding/resources/how-to-guides/cross-compile-for-the-iphone/how-to-cross-compile-for-the-iphone-using-cmake/faq
 * https://sites.google.com/site/michaelsafyan/coding/resources/how-to-guides/cross-compile-for-the-iphone/how-to-construct-iphone-framework-bundles-for-cross-compiled-iphone-libraries
 
-==psptoolchain==
+# psptoolchain
 
 * https://github.com/pspdev/psptoolchain
 * https://github.com/pspdev/psplibraries

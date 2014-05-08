@@ -1,4 +1,4 @@
-==[演奏人数](http://blogs.yahoo.co.jp/jgda_1960/29063229.html)==
+# [演奏人数](http://blogs.yahoo.co.jp/jgda_1960/29063229.html)
 * 1人で演奏→ソロ（Solo）
 * 二重奏→デュエット（Duet）
 * 三重奏→トリオ（Trio）

@@ -1,4 +1,4 @@
-==Garbage Collector== 
+# Garbage Collector 
 * libauto
   * Objective-C 2.0's garbage collector
 * minigc
