@@ -12,13 +12,12 @@
 # Emitting Manual Event
 * [SDL_Event structure](http://sdl.beuc.net/sdl.wiki/SDL_Event)
 * [Pushing event to SDL event queue](http://sdl.beuc.net/sdl.wiki/SDL_PushEvent)
-```
+```C
  SDL_Event ev;
  /*
   * Write events to push in "ev"
   */
  BOOST_VERIFY(SDL_PushEvent(&ev) == 0);
-
 ```
 
 # Links
