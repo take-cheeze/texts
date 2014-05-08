@@ -3,5 +3,5 @@
 * [Image](http://mazikanon.blog102.fc2.com/blog-entry-351.html)
 * [Training accuracy of drawing](http://woodgears.ca/eyeball/)
 
- Madoka Magika
+# Madoka Magika
 * [Weapons of Homu-homu](http://otanews.livedoor.biz/archives/51777140.html)

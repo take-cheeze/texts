@@ -1,9 +1,9 @@
-# Seebeck effect 
+## Seebeck effect 
 * Same as Thermocouple.
 * Use in thermoelectric generator.
 * When joint of different metal gains heat generates electricity.
 
-# 流体力学
+## 流体力学
 * Force
 ```math
 \rho_{1} u_{1} A_{1} [= \rho_{2} u_{2} A_{2} [N](N])
@@ -51,7 +51,7 @@ u_{1} A_{1} = u_{2} A_{2} (\rho_{1} = \rho_{2})
 * マッハ数：流速÷音速
   * コンコルドは約㍅2
 
-# コンデンサ
+## コンデンサ
 * クーロン定数 ```math
 k_{0} = 9.0 \times 10^9 [m^2 / C^2](N))
 ```
@@ -76,7 +76,7 @@ k_{0} = 9.0 \times 10^9 [m^2 / C^2](N))
 * 極板間引力: F = Q * E / 2
 * Q = C*V
 
-#  合成容量 
+##  合成容量 
 * 並列: ```math
  C = {\sum C_{k}} 
 ```
@@ -84,17 +84,17 @@ k_{0} = 9.0 \times 10^9 [m^2 / C^2](N))
 {1 \over C} = {\sum {1 \over C_{k}}}
 ```
 
-# 温度特性
+## 温度特性
 温度による容量の変化の誤差
 これを逆手に取って，一定の温度変化による特性の変化が一定の電子部品は温度センサーに使える
 
-# 周波数特性
+## 周波数特性
 高周波での安定性
 漏電量は```math
 \tan \delta
 ```でわかる
 
-# 合成抵抗
+## 合成抵抗
 * 並列: ```math
 {1 \over C} = {\sum {1 \over C_{k}}}
 ```
@@ -102,24 +102,24 @@ k_{0} = 9.0 \times 10^9 [m^2 / C^2](N))
  C = {\sum C_{k}} 
 ```
 
-# 耐圧
+## 耐圧
 かけられる電圧の上限の目安
 
-# ボルツマン定数
+## ボルツマン定数
 ```math
 k [/ K](J) = R / N_{A} = 1.380658 \times 10^23
 ```
 * N: Avogadro数
 * R: 気体定数
 
-# 質量の持つエネルギー
+## 質量の持つエネルギー
 ```math
 e[= {m[kg](J]) c[\over \sqrt{1 - {v[m/s](m/s]^2)^2 /\over c[m/s]^2}}}
 ```
 
 c: Speed of light
 
-# 等加速度運動
+## 等加速度運動
 ```math
 v[= v_{0}[m/s](m/s]) + a[t[s](m^2/2])
 ```
@@ -132,7 +132,7 @@ x[= v_{0}[m/s](m]) t[+ {1 \over 2}a[m^2/2](s]) t^2
 v[- v_{0}[m](m]^2)^2 = 2 a[x[m](m^2/s])
 ```
 
-# 万有引力
+## 万有引力
 * Newton
 ```math
 F[= G[{N m^2 \over kg^2}](N]) {M[m[kg](kg]) \over r[m]^2}
@@ -142,7 +142,7 @@ F[= G[{N m^2 \over kg^2}](N]) {M[m[kg](kg]) \over r[m]^2}
 G = 6.673 * 10^-11
 ```
 
-# 熱力学
+## 熱力学
 ```math
 d{ ln W (E) \over d E} = {1 \over kT}
 ```
@@ -151,7 +151,7 @@ d{ ln W (E) \over d E} = {1 \over kT}
 {mv^2 \over 2} = {3\over 2}kT
 ```
 
-# 同位体解析
+## 同位体解析
 * ```math
 _{14} C
 ```
@@ -159,13 +159,13 @@ _{14} C
 _{129} I
 ```
 
-# Four dynamics 
+## Four dynamics 
 * Fluid dynamics
 * Thermodynamics
 * Strength of materials
 * Mechanical dynamics
 
-# Gas law 
+## Gas law 
 * Ideal gas
   * p [Pa]
   * V [L]
@@ -176,7 +176,7 @@ _{129} I
 pV = nRT
 ```
 
-# Wave 
+## Wave 
 ```math
 v = f \lambda = {\lambda \over T}
 ```
@@ -193,7 +193,7 @@ n_{1,2} = {\sin \theta_{1} \over \sin \theta_{2}} = {v_{1} \over v_{2}} = {\lamb
 y = A \sin({2\pi \over T}(t - {x \over v})) = A \sin 2\pi({t \over T} - {x \over \lambda})
 ```
 
-# Fluid Dynamics 
+## Fluid Dynamics 
 * Mach
   * The speed of wave in trasmission medium.
 ```math

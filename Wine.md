@@ -5,13 +5,13 @@
 * [MIDI device](http://kakurasan.ehoh.net/summary/mididev.sound.wine.html)
 * [arch linux page](https://wiki.archlinux.org/index.php/Wine)
 
-# Paths
+## Paths
 * prefix
   * $WINEPREFIX
   * if $WINEPREFIX isn't set '~/.wine' is used instead
 * "Z:" drive means root directory in unix
 
-# Registry
+## Registry
 * [wine registry file name](http://kakurasan.ehoh.net/summary/winereg.reg.wine.html)
 * [wine wiki page](http://wine-wiki.org/index.php/Wine_Registry)
 * [about format](http://wiki.winehq.org/RegistryFormat)
@@ -19,7 +19,7 @@
 * [string parser](http://source.winehq.org/git/wine.git/blob?f=server/unicode.c)
 * [registry parser](http://source.winehq.org/git/wine.git/blob?f=server/registry.c)
 
-# Configuration
+## Configuration
 To use Japanese add
 ```
   export LANG="ja_JP.UTF-8"
@@ -31,7 +31,7 @@ To use Japanese add
 
 in your shell config.
 
-# Tools
-## winedbg
+## Tools
+### winedbg
 * wine debugger that can debug mingw program.
 * [Reference](http://www.winehq.org/docs/winedev-guide/dbg-commands)

@@ -1,4 +1,4 @@
-# [Address Sanitizer](https://code.google.com/p/address-sanitizer/)
+## [Address Sanitizer](https://code.google.com/p/address-sanitizer/)
 * Memory error detector that can be used in [clang](http://clang.llvm.org/docs/AddressSanitizer.html) and gcc.
   * In Xcode clang it's disabled so you need to use MacPorts clang or other non-Apple clang to enable it.
 * [Algorithm](https://code.google.com/p/address-sanitizer/wiki/AddressSanitizerAlgorithm)
@@ -8,10 +8,10 @@
   * to stop before report set breakpoint to __asan_report_error which will be called by __asan_report_{load,store}{1,2,4,8,16}
   * to stop after report set env "ASAN_OPTIONS=abort_on_error=1" or set a breakpoint to AsanDie
 
-# [Instruments](http://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/Introduction/Introduction.html)
+## [Instruments](http://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/Introduction/Introduction.html)
 * Profiling tool installed with Xcode
 
-# gdb
+## gdb
 * GNU DeBuger
 * [repository](http://sourceware.org/git/?p=gdb.git)
 * Well used command
@@ -25,19 +25,19 @@
 | break || b || set break point 
 |}
 
-# addr2line
+## addr2line
 * [reference](http://linux.die.net/man/1/addr2line)
 * command to get line number from executable address.
 * [winaddr2line](https://code.google.com/p/winaddr2line/)
 * [binutils code](http://sourceware.org/git/?p=binutils.git;a=blob;f=binutils/addr2line.c)
 
-# Demangle
+## Demangle
 * [c++filt](http://sourceware.org/binutils/docs-2.16/binutils/c_002b_002bfilt.html)
   * command to decode C++ function symbol.
   * [binutils code](http://sourceware.org/git/?p=binutils.git;a=blob;f=binutils/cxxfilt.c)
 * [C way](http://0xcc.net/blog/archives/000095.html)
 
-# Backtrace
+## Backtrace
 * [mingw-w64 backtrace](http://www.mail-archive.com/mingw-w64-public@lists.sourceforge.net/msg02159.html)
 * [mingw backtrace](https://code.google.com/p/backtrace-mingw/)
 * [backtrace from C++ exceptions](http://d.hatena.ne.jp/rti7743/20110109/1294605380)
@@ -55,6 +55,6 @@
 * [execinfo.h](http://sourceforge.net/apps/trac/mingw-w64/browser/experimental/backtrace/execinfo.h)
 * [example using libbfd](http://0xcc.net/blog/archives/000073.html)
 
-## tracef
+### tracef
 * [example](http://binary.nahi.to/tracef/)
 * command to trace all function calls.

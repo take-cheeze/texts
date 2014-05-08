@@ -4,27 +4,27 @@
   * redirected text can be used as grep buffer by enabling grep-mode
 * [PuTTY FAQ](http://www.emacswiki.org/emacs/PuTTY)
 
-# [tramp-mode](http://www.emacswiki.org/emacs/TrampMode)
+## [tramp-mode](http://www.emacswiki.org/emacs/TrampMode)
 * mode that can edit sudo files
 * meant to edit remote files
 * [tramp usage](http://dqn.sakusakutto.jp/2011/08/tramp-emacs-sudo.html)
 
-# gud
+## gud
 * [source](http://www.opensource.apple.com/source/lldb/lldb-69/utils/emacs/gud.el)
 * Grand Unified Debugger mode
 * supports lldb and gdb
 * [module to support cdb](http://www.emacswiki.org/emacs/cdb-gud.el)
 
-# electric-mode
+## electric-mode
 * minor mode to auto complete braces
 * [how to use electrice-mode with ruby-electric](http://d.hatena.ne.jp/tettsyun/20111217)
 
-# ansi-color
+## ansi-color
 * compile log coloring
   * http://www.moreslowly.jp/mw/index.php/Emacs_%E3%81%AE_compilation-mode_%E3%81%A7_ansi_color_%E3%81%8C%E5%8C%96%E3%81%91%E3%81%A6%E3%81%97%E3%81%BE%E3%81%86%E3%81%93%E3%81%A8%E3%81%B8%E3%81%AE%E5%AF%BE%E5%87%A6
   * http://gittup.org/tup/tips_and_tricks.html
 
-# regexp
+## regexp
 * [EmacsWiki reference](http://emacswiki.org/emacs/RegularExpression)
 
 {|
@@ -33,41 +33,41 @@
 |\,(exp)||replace with emacs lisp
 |}
 
-# emacs-clang-complete-async
+## emacs-clang-complete-async
 * [repository](https://github.com/Golevka/emacs-clang-complete-async)
 * Better clang complete mode
 * Faster then auto-complete-clang.(No freeze?)
 
-# el-get
+## el-get
 * [Repository](https://github.com/dimitri/el-get)
 * Emacs package manager.
 * type
   * http:
     * use :localname to set download filename
 
-# Session saving
+## Session saving
 * (run-at-time t 1800 'session-save-session)
 * (run-at-time t 1800 'save-current-configuration)
 * will save the buffer state and window state
 
-# Using mouse
+## Using mouse
 * (mouse-wheel-mode t)
 * (xterm-mouse-mode t)
 * Will enable mouse selecting and mouse wheel scrolling.
 
-# Google C/C++ style
+## Google C/C++ style
 * [source](http://google-styleguide.googlecode.com/svn/trunk/google-c-style.el)
 * [C++ guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml)
   * Boost.ptr_container is allowed.
   * No C++11
 
-# Emacs Client
+## Emacs Client
 * (server-start)
 * Will start the emacs server
 * To use emacs server open file with "emacsclient" and will open the file in emacs you are opening
 * by setting "emacsclient" to $EDITOR you can write long commit message in git or other tool
 
-# Emacs Lisp
+## Emacs Lisp
 * [about void](http://www.ccmr.cornell.edu/cgi-bin/info2www?(elisp)Void%20Variables)
   * if shell-command-to-string fails it return void
 * if prefix ' it is symbol, otherwise value reference
@@ -88,7 +88,7 @@
 * Process
   * start-process:
   * process-send-string: Send data to stdin
-## Functions
+### Functions
 {|
 !name!!description
 |-

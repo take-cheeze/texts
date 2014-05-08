@@ -2,7 +2,7 @@
   * graphics library wrapper
 * [Regal for NaCl](http://www.altdevblogaday.com/2012/09/04/bringing-regal-opengl-to-native-client/)
 
-# Pass Tracing
+## Pass Tracing
 * [smallpt](http://www.kevinbeason.com/smallpt/)
   * [repository](https://github.com/munificent/smallpt)
   * [js implementation](http://create.stephan-brumme.com/smallpt-js/)
@@ -10,7 +10,7 @@
   * [repository](https://github.com/githole/edupt)
   * [slide](http://www.slideshare.net/h013/edupt-kaisetsu-22852235)
 
-# OpenGL
+## OpenGL
 * General rendering API.
 * No image file to texture loading function so you need to make or have the rest of functions you need.
 * [Tutorial](http://marina.sys.wakayama-u.ac.jp/~tokoi/oglarticles.html)
@@ -19,12 +19,12 @@
 * [SOIL](http://www.lonesock.net/soil.html)(Simple OpenGL Image Library)
   * png/bmp to OpenGL texture
 
-## EGL
+### EGL
 * interface betweem OpenGL API
 * [EGL and EAGL](http://db-in.com/blog/2011/02/khronos-egl-and-apple-eagl/)
 * [EGL tutorial](https://sites.google.com/site/learningopengl/eglbasics)
 
-## Data type
+### Data type
 * GL_FIXED
   * [GL_FIXED](http://www.opengl.org/registry/specs/OES/OES_fixed_point.txt)
   * [GL_FIXED performance](https://groups.google.com/forum/?fromgroups=#!topic/android-ndk/KvHTF_ZtxGk)
@@ -37,7 +37,7 @@
 * [openexr](http://openexr.com/)
   * 16bit floating point number implementation
 
-## OpenGL ES
+### OpenGL ES
 * Embed purpose OpenGL API.
 * Mostly in iOS, Android, Browser GL API
 * Removal of glBegin/glEnd was good a decision.
@@ -53,7 +53,7 @@
   * OpenGL ES 2.0 implementation for WebGL
   * used in Chromium and FireFox
 
-## GLSL
+### GLSL
 * Spec of OpenGL's Shader Language.
 * [GLSL data type](http://www.opengl.org/sdk/docs/manglsl/)
 * [GLSL data type](http://www22.atwiki.jp/opengles/pages/9.html)
@@ -62,12 +62,12 @@
   * [article](http://aras-p.info/blog/2010/09/29/glsl-optimizer/)
   * [repository](https://github.com/aras-p/glsl-optimizer)
 
-## GLEW
+### GLEW
 * OpenGL Extension Wrangler library
 * [home page](http://glew.sourceforge.net/)
 * [examples](http://imd.naist.jp/~fujis/cgi-bin/wiki/index.php?GLEW%A4%CB%A4%C4%A4%A4%A4%C6)
 
-# Pixman
+## Pixman
 * PIXel MANipulation library
 * Software rendering backend.
 * [repository](http://cgit.freedesktop.org/pixman/)

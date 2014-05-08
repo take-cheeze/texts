@@ -3,10 +3,10 @@
 * [OpenSL](http://www.khronos.org/registry/sles/)
 * [audio processing in C (book)](http://floor13.sakura.ne.jp/book03/book03.html)
 
-# [Julius](http://julius.sourceforge.jp/)
+## [Julius](http://julius.sourceforge.jp/)
 * large vocabulary continuous speech recognition
 
-# Conversion
+## Conversion
 * [many types](http://en.linuxreviews.org/HOWTO_Convert_audio_files)
 * MIDI
   * using fluidsynth
@@ -30,7 +30,7 @@
 * ogg
   * use '''oggenv''' to convert wave to ogg
 
-# [OpenAL](http://connect.creativelabs.com/openal/default.aspx)
+## [OpenAL](http://connect.creativelabs.com/openal/default.aspx)
 * [OpenAL Japanese translation](http://www.memorize-being.net/releases/oal11spec-ja/)
 * A 3D audio library that was inspired by OpenGL
 * OpenSL is the official Khronos library but OpenAL is more popular.
@@ -66,7 +66,7 @@
 * [reading wave file](http://kcat.strangesoft.net/openal-tutorial.html)
 * [ruby bindings](https://rubygems.org/gems/ruby-openal)
 
-# MIDI
+## MIDI
 * Score for synthesizers.
 * Needs sound font to play in software synthesizer.
 * Timidity and FluidSynth is a popular free software synthesizer.
@@ -74,17 +74,17 @@
 * [Example API](http://www.sjbaker.org/wiki/index.php?title=MIDIfile_player_library_API)
 * [rpg maker xp](http://mimikopi.nomaki.jp/domino/rpgxp/index.html)
 
-## Library
+### Library
 * [The Synthesis ToolKit in C++ (STK)](https://ccrma.stanford.edu/software/stk/)
 
-## RPG Maker
+### RPG Maker
 * [RPG Maker XP midi](http://mimikopi.nomaki.jp/domino/rpgxp/index.html)
 
-## Sound Font
+### Sound Font
 * [Spec](http://connect.creativelabs.com/developer/SoundFont/sfspec21.pdf)
 * [fluidsynth sound font](http://sourceforge.net/apps/trac/fluidsynth/wiki/SoundFont)
 
-## File Format
+### File Format
 * Major format is SMF(Standard MIDI Format)
 * [Standard File Format](http://home.roadrunner.com/~jgglatt/tech/midifile.htm)
 * [Standard MIDI File format](http://www.omnibase.net/smf/)
@@ -92,7 +92,7 @@
 * [Japanese SMF spec](http://www2s.biglobe.ne.jp/~yyagi/material/smfspec.html)
 * [Japanese SMF spec 2](http://mofo.pns.to/wibs/?#63)
 
-### Chunk
+#### Chunk
 ```
  struct Chunk {
    char ID[4];
@@ -102,7 +102,7 @@
 
 ```
 
-## Timidity
+### Timidity
 * [Home page](http://timidity.sourceforge.net/)
 * [Latest Timidity](http://bluewing.usamimi.info/timidity/index.php)
 * [Timidity for Mac](http://www.asahi-net.or.jp/~gb7t-ngm/timidity.old/index.html)
@@ -113,47 +113,47 @@
 * [Timidity and Sound Font](http://pohwa.adam.ne.jp/you/music/timidity.html)
 * [arch linux page](https://wiki.archlinux.org/index.php/Timidity)
 
-## FluidSynth
+### FluidSynth
 * [Document](http://fluidsynth.sourceforge.net/api/)
 
-# Library
+## Library
 * [jdksmidi](https://github.com/jdkoftinoff/jdksmidi)
 * [stk](https://ccrma.stanford.edu/software/stk/download.html)
 * CFugue
   * [project page](http://cfugue.sourceforge.net/)
   * [document](http://gopalakrishna.palem.in/CFugue.html)
 
-## [libsndfile](http://www.mega-nerd.com/libsndfile/)
+### [libsndfile](http://www.mega-nerd.com/libsndfile/)
 * Library to read many type of audio file.
 * [using it with OpenAL](https://gist.github.com/4233185)
 * [Document](http://www.mega-nerd.com/libsndfile/api.html)
 * [read/write example](http://haraita9283.blog98.fc2.com/blog-entry-233.html)
 
-# MP3
+## MP3
 * [using mp3lame](http://pf-j.sakura.ne.jp/program/tips/mp3lame.htm)
 * Patent problem
   * [Copyright problem](http://www.law.co.jp/okamura/copylaw/mp3.htm)
   * [Patent problem](http://www.initialt.org/lame/patent.html)
   * Conclusion: Don't use MP3 in games or etc.., use OGG or other free format.
 
-# OGG
+## OGG
 * [document](http://xiph.org/ogg/doc/libogg/reference.html)
 * [Ogg Vorbis tutorial](http://marupeke296.com/OGG_main.html)
 * [vorbisfile document](http://xiph.org/vorbis/doc/vorbisfile/index.html)
 * use vorbisfile to read ogg vorbis.
 
-# FLAC
+## FLAC
 * Free Lossless Audio Codec
 * similar to mp3
 * [SIZE_MAX compile error](http://www.hydrogenaudio.org/forums/index.php?showtopic=89083)
   * [patch](http://sourceforge.net/p/flac/bugs/264/)
 * [socket compile error](http://lists.gnu.org/archive/html/mingw-cross-env-list/2010-10/msg00101.html)
 
-# WAV
+## WAV
 * [file format](http://www.kk.iij4u.or.jp/~kondo/wave/)
 * [file format](http://www.sonicspot.com/guide/wavefiles.html)
 
-# Web Browser
+## Web Browser
 * [node.js](http://blog.livedoor.jp/kotesaki/archives/1544696.html)
 * [node.js server](http://stackoverflow.com/questions/3955103/streaming-audio-from-a-node-js-server-to-html5-audio-tag)
 * [Internet explorer audio tag](http://blogs.msdn.com/b/ie_jp/archive/2011/08/12/10195042.aspx)
@@ -161,10 +161,10 @@
 * [media element](http://www.html5.jp/tag/elements/media_elements.html)
 * [html5audio
 
-# SDL_mixer
+## SDL_mixer
 * SDL based audio library.
 * Has support of many file types.
 * [http://hg.libsdl.org/SDL_mixer/ repository](http://www.html5audio.org/)
 
-# ALmixer
+## ALmixer
 * [Home Page](http://playcontrol.net/opensource/ALmixer/)

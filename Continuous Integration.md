@@ -1,11 +1,11 @@
 * automatic project builder and tester
 * it can be triggered when a SCM change happen
 
-# Jenkins
+## Jenkins
 * popular CI server that is easy to install
 * has many plugins
 
-# Travis CI
+## Travis CI
 * CI service to build and test code inside github repository
 * .travis.yml
   * configuration file for Travis-CI

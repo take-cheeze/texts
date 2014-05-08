@@ -2,12 +2,12 @@
 * [Repository](https://github.com/joyent/node)
 * [version available in Heroku](https://devcenter.heroku.com/articles/nodejs-versions)
 
-# GC
+## GC
 * [explicit GC](http://koexuka.blogspot.jp/2012/07/nodejsgc.html)
   * pass --expose_gc
   * call global.gc();
 
-# [Hubot](http://hubot.github.com/)
+## [Hubot](http://hubot.github.com/)
 * bot framework by GitHub
 * written in CoffeeScript
 * [repository](https://github.com/github/hubot)
@@ -20,11 +20,11 @@
   * only supports IRC
   * creates another express server
 
-## [IRC Adapter](https://github.com/nandub/hubot-irc)
+### [IRC Adapter](https://github.com/nandub/hubot-irc)
 * [how to configure](https://github.com/github/hubot/wiki/Adapter:-IRC)
 * use HUBOT_IRC_UNFLOOD if you want the bot to have interval between posts.
 
-## Scripts
+### Scripts
 * [examples](http://blog.fumiz.me/2012/08/05/hubot-irc-bot-script/)
 * [hubot script writing manual](http://theprogrammingbutler.com/blog/archives/2011/10/28/hubot-scripts-explained/)
 * [Official ones](https://github.com/github/hubot-scripts)
@@ -33,60 +33,60 @@
 * [hubot-scripts catalog](http://hubot-script-catalog.herokuapp.com/)
   * list of how to use.
 
-# Feed
+## Feed
 * [feed generator](http://projets.jpmonette.net/en/feed)
   * [repository](https://github.com/jpmonette/feed)
   * supports atom and rss generation
 * [feed-parser](https://github.com/danmactough/node-feedparser)
 
-# [linkify](https://github.com/thejh/node-linkify)
+## [linkify](https://github.com/thejh/node-linkify)
 * module to linkify url in the text
 * supports html and latex mode
 
-# Document
+## Document
 * [One page reference](http://nodejs.org/api/all.html)
 * [Module lists](https://github.com/joyent/node/wiki/Modules)
 
-# Google Reader
+## Google Reader
 * [google reader api example](http://h5y1m141.hatenablog.com/entry/20101126/p1)
 * [google reader api example 2](http://h5y1m141.hatenablog.com/entry/20101102/p1)
 * [unofficial document](https://code.google.com/p/pyrfeed/wiki/GoogleReaderAPI)
 * [Google Client Login](https://github.com/Ajnasz/GoogleClientLogin)
 * [googlereaderauth](https://github.com/Tobbe/googlereaderauth)
 
-# Qt
+## Qt
 * Qt bindings in node.js
 * [Repository](https://github.com/arturadib/node-qt)
 * [Using node-qt](http://d.hatena.ne.jp/ishikawam/20120410/p1)
 
-# Database
+## Database
 * [LevelDB bindings](https://github.com/my8bird/node-leveldb)
 
-# API binding
+## API binding
 * [Twit](https://github.com/ttezel/twit)
   * Twitter API Binding that supports streaming API
 
-# Scraping
+## Scraping
 * [jsdom](https://github.com/tmpvar/jsdom)
   * Pure javascript DOM implemetation.
 * [node-jquery](https://github.com/coolaj86/node-jquery)
 * [html compressor](https://code.google.com/p/htmlcompressor/)
   * can be used to reduce transferring data size.
 
-# NPM
+## NPM
 * Package manager for node
 * [Repository](https://github.com/isaacs/npm)
 * [Home Page](https://npmjs.org/)
 * To use it create package.json in the root directory of repository.
 
-# Express
+## Express
 * [Repository](https://github.com/visionmedia/express)
 * [Reference](http://expressjs.com/api.html)
 * [Connect](http://www.senchalabs.org/connect/)
   * Middle ware used in express.
   * Add support of compression.
 
-# Request Module
+## Request Module
 * [Repository](https://github.com/mikeal/request)
 * Well used module for http requests.
 * Less bugs.

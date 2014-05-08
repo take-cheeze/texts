@@ -8,10 +8,10 @@
   * [document](https://github.com/libarchive/libarchive/wiki/ManualPages)
   * C library for reading/writing archive file.
 
-# LHA
+## LHA
 * [Opensource implementation](https://github.com/fragglet/lhasa)
 
-# zip
+## zip
 * most popular archive file format
 * [libzip](http://www.nih.at/libzip/)(not zlib)
 * [repository](http://hg.nih.at/libzip/)

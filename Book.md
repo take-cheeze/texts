@@ -1,7 +1,7 @@
-# e-book wish list
+## e-book wish list
 * [オープンソースで学ぶ社会ネットワーク分析――ソーシャルWebの「つながり」を見つけ出す](http://www.oreilly.co.jp/books/9784873115504/)
 
-# ePub
+## ePub
 * widely used e-book format
 * use XHTML and CSS
 * [rpub](http://avdgaag.github.io/rpub/)
@@ -9,5 +9,5 @@
   * [repository](https://github.com/avdgaag/rpub)
   * ruby gem for ePub
 
-# mobi
+## mobi
 * e-book format used in Kindle

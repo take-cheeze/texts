@@ -4,23 +4,23 @@
 * [mruby to c parser](https://github.com/mrbrdo/mruby_cc)
 * [related projects](https://github.com/mruby/mruby/wiki/Related-Projects)
 
-# Exceptions
+## Exceptions
 * Uses longjmp/setjmp internally.
 * When C++ code is mixed it will use C++ exception instead.
   * [Exception patch that was used in emscripten(removed since longjmp/setjmp was supported now).](https://github.com/xxuejie/webruby/blob/19365625b1a2e215af69e8196053a17a33bebfed/patches/01-mruby-use-exception.patch)
 
-# PNaCl/Emscripten
+## PNaCl/Emscripten
 * [Primitive boxing.](https://github.com/mruby/mruby/pull/1660)
   * Use primitive type as mrb_value.
 
-# mruby-require
+## mruby-require
 * iij version
   * requires mruby-env/io/dir/tempfile
   * only supports script loading
 * mattn version
   * supports dynamic library loading
 
-# user defined object allocation
+## user defined object allocation
 * use MRB_SET_INSTANCE_TT
   * equivalent to rb_define_alloc_func
   * though it just sets allocating ruby object type
@@ -28,7 +28,7 @@
   * type and pointer must be set
   * DATA_PTR and DATA_TYPE is just a macro so the return of it can be assigned
 
-# mrbgems
+## mrbgems
 * [document](https://github.com/mruby/mruby/blob/master/doc/mrbgems/README.md)
 * [enabling](http://d.hatena.ne.jp/iamsandman/20121207/1354890750)
 * [mgem](https://github.com/bovi/mgem)
@@ -54,16 +54,16 @@
     * 'default': default gembox. mruby-strintg-utf8 is not included in this
     * 'full-core': gembox of all gems that can be added with ":core"
 
-## gems
+### gems
 * [mruby zlib](https://github.com/viking/mruby-zlib)
   * zlib binding
   * Zlib.inflate/deflate
 
-# Block
+## Block
 * One of the most powerful feature of ruby.
 * to call given block to function use **yield**.
 
-# Garbage Collector
+## Garbage Collector
 * root_scan_phase scans marks root
 * "mrb_iv_set"ed children(is in iv_tbl) will be marked if parent is marked
 * All the mrb_value in RStruct will be marked.
@@ -72,7 +72,7 @@
 * built-in type(e.g. int, float) is ignored
 * Unable to have mark function(currently)
 
-# Data type
+## Data type
 * mrb_sym
   * string reference like flyweight pattern. pooled string pointer
   * get it from mrb_intern(mrb, sym_str)
@@ -83,7 +83,7 @@
   * mrb_cdump_irep outputs C code
   * to load binary outputed by "mrb -B" use mrb_read_irep, use mrb_load_irep to load if "-C","-B" wasn't passed.
 
-# mrb_get_args() format
+## mrb_get_args() format
 {|
 ! char !! mruby type !! C type
 |-
@@ -120,7 +120,7 @@
 | ? ||  optional argument retrieved || mrb_bool
 |}
 
-# Built-in Classes
+## Built-in Classes
 * RBasic
   * base of all built-in classes
   * use RBASIC to get pointer from mrb_value
@@ -134,7 +134,7 @@
     * mrb_get_datatype: if error returns NULL
     * mrb_check_datatype: if error throws exception
 
-# C language translater
+## C language translater
 * [How to use.](http://d.hatena.ne.jp/MrShoz/20120423/1335194837)
 * mrbc -C${symbol} ${file}.rb: outputs C function
   * ${file}.c: extern void ${symbol}(mrb_state* mrb) {}
@@ -143,27 +143,27 @@
 * mrbc ${file}.rb: outputs mruby binary
   * ${file}.mrb: mruby binary
 
-# Native Client
+## Native Client
 * How to build mruby
 
-# Fiber
+## Fiber
 * [https://github.com/mruby/mruby/issues/80 Not implemented](])
 * [CRuby Fiber API](http://www.ruby-doc.org/core-1.9.3/Fiber.html)
 * If single argument is passed to Fiber.yield that argument is returned.
 * When multiple arguments is passed to Fiber.yield array of arguments is returned.
 * ['''impelemented'''](https://github.com/mruby/mruby/commit/5c0b9b703c9d1a08d7219b057b809bda4bc89f8a)
 
-# Weak Reference
+## Weak Reference
 * Seems not implemented.
 * [CRuby implemetation](http://d.hatena.ne.jp/authorNari/20081108/1226138174)
 * In ruby 1.9 there is weak map so no special code is needed now.
 * [weakref implementation using c++ shared_ptr/weak_ptr](https://github.com/take-cheeze/mruby-weakref)
   * don't know how much it's safe from GC.
 
-# Native Client
+## Native Client
 * [Example](http://akasata.hatenablog.com/entry/2012/05/29/163851)
 * Use [with cmake](https://github.com/seichter/CMake-Toolchain-Collection/blob/master/toolchain-nacl.cmake) will be better
 
-# Emscripten
+## Emscripten
 * [webruby](https://github.com/xxuejie/webruby)
 * [patch to replace longjmp with exception throwing](https://github.com/xxuejie/webruby/commit/19365625b1a2e215af69e8196053a17a33bebfed)

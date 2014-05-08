@@ -1,25 +1,25 @@
 * [Online text books of statistics.](http://id.fnshr.info/2013/08/11/online-stat-books/)
 
-# Writing Formula
-## Tex
+## Writing Formula
+### Tex
 * [Tex Reference Card](http://www.math.brown.edu/~jhs/ReferenceCards/TeXRefCard.v1.5.pdf)
 * [Japanese TeX Reference](http://www002.upp.so-net.ne.jp/latex/)
 * [TeX reference](http://www.miwie.org/tex-refs/tex-refs.html)
 
-# 累乗 
+## 累乗 
   * 二乗: Square
   * 三乗: Cube
 
-# Wavelet 
+## Wavelet 
   * フーリエ変換的なもの
   * 計算量が比較的少ない
 
-# Eulerの公式 
+## Eulerの公式 
 ```math
 e^{\imath\theta}= \cos\theta + \imath\sin\theta
 ```
 
-# de Morgan's laws 
+## de Morgan's laws 
 ```math
 \lnot(P \bigvee Q) = \lnot{P} \bigwedge \lnot{Q}
 ```
@@ -36,20 +36,20 @@ e^{\imath\theta}= \cos\theta + \imath\sin\theta
 \overline{(A \bigcup B)} = \overline{A} \bigcap \overline{B}
 ```
 
-#  群 
+##  群 
 * 可換群・アーベル群
   * AB = B*A
 * 非可換群・非アーベル群
   * A*B != B*A
 
-# 最大・最小化 
+## 最大・最小化 
 * 二次関数では平方完成
 * 相加相乗平均
 ```math
 x \geq 0, y \geq 0, {x + y \over 2} \geq \sqrt{xy}
 ```
 
-# 点と直線の距離 
+## 点と直線の距離 
 ```math
 (x_{0}, y_{0}), ax + by + c = 0
 ```
@@ -58,7 +58,7 @@ x \geq 0, y \geq 0, {x + y \over 2} \geq \sqrt{xy}
 d = {|ax_{0} + by_{0} + c| \over \sqrt{a^2 + b^2}}
 ```
 
-# 行列 
+## 行列 
 * 行列値
 * トレース
 * 一次変換
@@ -98,7 +98,7 @@ s_{x} &0 &0 \\
 
 ```
 
-# ベクトル 
+## ベクトル 
 * 和・差
 * 長さ
 ```math
@@ -112,7 +112,7 @@ s_{x} &0 &0 \\
 * |a|*|b|*sinθ
 * Av= λv
 
-# 奇関数・偶関数
+## 奇関数・偶関数
 * 奇関数
 ```math
 f(-x) = -f(x)
@@ -125,7 +125,7 @@ f(-x) = f(x)
 * 偶関数×偶関数 = 偶関数
 * 奇関数×奇関数 = 偶関数
 
-#  微積分 
+##  微積分 
 ```math
 (\sin \theta)' = \cos \theta
 ```
@@ -138,7 +138,7 @@ f(-x) = f(x)
 (x^n)' = nx^{n-1}
 ```
 
-#  三角関数 
+##  三角関数 
 * 余弦定理
 ```math
 \cos A = {b^2 + c^2 - a^2 \over 2bc}
@@ -174,7 +174,7 @@ a^2 = b^2 + c^2 - 2bc\cos A
 \cos 2\theta = \cos \theta ^ 2 - \sin \theta ^ 2 = 2\cos \theta ^ 2 - 1 = 1 - 2\sin \theta ^ 2
 ```
 
-#  幾何学 
+##  幾何学 
 * 三角形
 ```math
 S = {b c \sin A \over 2}
@@ -198,7 +198,7 @@ S = 4\pi r^2
 V = {4 \over 3}\pi r^3
 ```
 
-# 集合 
+## 集合 
 * ∪: 和集合
 * ∩: 積集合
 ```math
@@ -209,7 +209,7 @@ n(A \bigcup B) = n(A) + n(B) - n(A \bigcap B)
 n(\overline{A}) = n(U) - n(A)
 ```
 
-# 確率
+## 確率
 * 順列
   * n P r = n! / (n - r)!
 * n! / n = (n - 1)!
