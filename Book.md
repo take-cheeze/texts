@@ -1,5 +1,6 @@
-## e-book wish list
 * [オープンソースで学ぶ社会ネットワーク分析――ソーシャルWebの「つながり」を見つけ出す](http://www.oreilly.co.jp/books/9784873115504/)
+* [SICP Japanese Translation(HTML)](http://sicp.iijlab.net/fulltext/xcont.html)
+* [SICP Japanese Translation(Tex)](https://github.com/minghai/sicp-pdf)
 
 ## ePub
 * widely used e-book format
