@@ -1,3 +1,6 @@
+## HTTP
+* [HTTP2 tests](https://github.com/http2/http2-test)
+
 ## [Mutlicast DNS](http://www.multicastdns.org/)
 * Zero configuration DNS by Apple.
 * Avahi on non-Apple platform.
@@ -27,13 +30,5 @@
 * UDID can be acquired with Xcode organizer
 * target device must be connected with USB cable
 * when you disconnected capturing device it will automatically stop.
-* to start
-```
- rvictl -s [UDID]
-
-```
-* to stop
-```
- rvictl -x [UDID]
-
-```
+* to start: `rvictl -s [UDID]`
+* to stop: `rvictl -x [UDID]`
