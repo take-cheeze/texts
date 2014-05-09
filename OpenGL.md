@@ -31,8 +31,8 @@
 * Removal of glBegin/glEnd was good a decision.
 * From 2.0 fixed function pipeline is removed and only shaders are used for effects.
 * [OpenGL ES 1.1](http://www.khronos.org/opengles/sdk/1.1/docs/man/)
-* [OpenGL ES 2.0](http://www.khronos.org/opengles/sdk/docs/man/)
-* [OpenGL ES 3.0](http://www.khronos.org/opengles/sdk/docs/man3/)
+* [OpenGL ES 2.0](http://www.khronos.org/opengles/sdk/docs/man/bottom.php)
+* [OpenGL ES 3.0](http://www.khronos.org/opengles/sdk/docs/man3/bottom.php)
 * [GLSL ES](http://www.khronos.org/opengles/sdk/docs/manglsl/)
 * [EGL reference](http://www.khronos.org/registry/egl/sdk/docs/man/xhtml/)
   * [EGL and EAGL](http://db-in.com/blog/2011/02/khronos-egl-and-apple-eagl/)
