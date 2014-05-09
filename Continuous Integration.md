@@ -11,3 +11,4 @@
   * configuration file for Travis-CI
   * [examples of .travis.yml](http://shyouhei.tumblr.com/post/29891295430/travis-yml)
 * build and test result of the commit will be shown
+* [Environments](http://docs.travis-ci.com/user/ci-environment/)
