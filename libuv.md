@@ -1,6 +1,7 @@
 * [repository](https://github.com/joyent/libuv)
 * famous as I/O library of in node.js
 * used as modern I/O library backend like rust
+* [About serial port support.](https://github.com/joyent/node/issues/4092)
 
 ## Document
 * [uv.h](https://github.com/joyent/libuv/blob/master/include/uv.h)
@@ -8,8 +9,6 @@
 
 ## Bindings
 * [mruby binding](https://github.com/mattn/mruby-uv)
-  * not memory efficient
-  * doesn't use MRB_SET_INSTANCE_TT for RData
 
 ## OS X(iOS) framework dependencies
 * In latest unstable release(0.11.x) OS X's framework dependencies is removed
