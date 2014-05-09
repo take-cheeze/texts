@@ -47,6 +47,7 @@
   * though Rakefile in mruby can be runned with normal rake
 
 ## C API Programming
+* [README.EXT](https://github.com/ruby/ruby/blob/trunk/README.EXT)
 * [Ruby Extension Programming Guide](http://i.loveruby.net/w/RubyExtensionProgrammingGuide.html)
 * [Using with C++ guide](http://funktor.org/programming/cpp/embedding-ruby)
 * [writing native gem](http://patshaughnessy.net/2011/10/31/dont-be-terrified-of-building-native-extensions)
