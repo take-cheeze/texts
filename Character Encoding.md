@@ -1,4 +1,12 @@
 * [Table](http://ash.jp/code/unitbl21.htm)
+ 
+## Ruby
+* [Encoding](http://www.ruby-doc.org/core/Encoding.html)
+* [Encoding::Converter](http://www.ruby-doc.org/core/Encoding/Converter.html)
+* [Encoding::CompatibilityError](http://www.ruby-doc.org/core/Encoding/CompatibilityError.html)
+* [Encoding::ConverterNotFoundError](http://www.ruby-doc.org/core/Encoding/ConverterNotFoundError.html)
+* [Encoding::InvalidByteSequenceError](http://www.ruby-doc.org/core/Encoding/InvalidByteSequenceError.html)
+* [Encoding::UndefinedConversionError](http://www.ruby-doc.org/core/Encoding/UndefinedConversionError.html)
 
 ## convmv
 * file name encoding converter
