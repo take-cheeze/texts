@@ -1,3 +1,7 @@
+## home directory
+* [Getting Windows home directory.](http://support.microsoft.com/kb/101507/en-us)
+  * `%HOMEDRIVE%%HOMEPATH%`
+
 ## dirent
 * [Document](http://pubs.opengroup.org/onlinepubs/007908799/xsh/dirent.h.html)
 * [Windows implementation](http://www.softagalleria.net/dirent.php)
@@ -22,4 +26,4 @@
 * basename gets filename from path
 * dirname gets directory from path
 * path = dirname + PATH_SEPARATOR + basename
-* [glic implementation](http://repo.or.cz/w/glibc.git/blob?f=misc/dirname.c)
+* [glibc implementation](http://repo.or.cz/w/glibc.git/blob?f=misc/dirname.c)
