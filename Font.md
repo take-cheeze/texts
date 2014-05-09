@@ -1,5 +1,9 @@
-## Windows
-* [gdipp](https://code.google.com/p/gdipp/)
+## Bitmap Distribution Format (BDF)
+* Bitmap font format by Adobe.
+* [Wikipedia page.](http://en.wikipedia.org/wiki/Glyph_Bitmap_Distribution_Format)
+* [Japanese article about BDF](http://hp.vector.co.jp/authors/VA013241/font/bdf.html)
+* [Cyrillic fonts in X.org](http://rasher.dk/rockbox/fonts/cyrillic/)
+* 
 
 ## Calculating Point
 * [freetype guide](http://www.freetype.org/freetype2/docs/glyphs/glyphs-2.html)
@@ -24,7 +28,6 @@
  FT_Bitmap *bm = &face->glyph->bitmap;
  int row, col, bit, c;
 
- /* モノクロビットマップの場合 */
  for (row = 0; row < bm->rows; row ++) {
      for (col = 0; col < bm->pitch; col ++) {
          c = bm->buffer[* row + col](bm->pitch);
@@ -40,6 +43,7 @@
 ```
 
 * Little big.
+
 ## Family name
 * Sans-serif: Gothic
 * Serif: Mincho
