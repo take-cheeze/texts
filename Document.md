@@ -6,7 +6,8 @@
 ## Markdown
 * [syntax reference](http://daringfireball.net/projects/markdown/syntax)
 * Popular in many wikis
-* In Github it is available in Issue.
+* [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown)
+  * In Github it can be used anywhere.
 * [Using `|` in table.](https://github.com/gitlabhq/gitlabhq/issues/1238)
 
 ## Media Wiki
