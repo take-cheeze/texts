@@ -1,6 +1,8 @@
 ## home directory
 * [Getting Windows home directory.](http://support.microsoft.com/kb/101507/en-us)
   * `%HOMEDRIVE%%HOMEPATH%`
+  * In CRuby it's set to `$HOME` in initialization.
+* Use environment variable `HOME` in unix system.
 
 ## dirent
 * [Document](http://pubs.opengroup.org/onlinepubs/007908799/xsh/dirent.h.html)
