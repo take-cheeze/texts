@@ -38,6 +38,7 @@
   * too big, no generic things
 * [IPL](https://github.com/Argoday/IPL)
 * [DevIL](http://openil.sourceforge.net/)
+* [Matrix operation.](http://www.graficaobscura.com/matrix/index.html)
 
 ### Resizing
 * [popular algorithms](http://emaame.com/20080901.html)
