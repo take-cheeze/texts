@@ -63,17 +63,15 @@
 
 ## Unicode
 * [concept](http://marigold.sakura.ne.jp/devel/unicode/concept.html)
-* Normalization
-  * use to compare unicode string
-  * has 4 type
-  * [utf8proc](http://www.public-software-group.org/utf8proc)
-    * C library for utf-8 normalization.
-    * supports all 4 normalization
-    * returned string is allocated with malloc() so needs to be deallocated with free()
-    * has ruby, posgresql binding
 
-## wchar_t
-* [
+### Normalization
+* use to compare unicode string
+* has 4 type
+* [utf8proc](http://www.public-software-group.org/utf8proc)
+  * C library for utf-8 normalization.
+  * supports all 4 normalization
+  * returned string is allocated with malloc() so needs to be deallocated with free()
+  * has ruby, posgresql binding
 
 ### Encoding
 
@@ -101,5 +99,5 @@
 * Used to convert unicode encoding.
 * Most of the time it needs to be converted to UTF-32 first.
 * Older API(before 1.48.0) doesn't have range check so use the header that has range check.
-* [test code](https://github.com/ryppl/boost-svn/blob/master/libs/regex/test/unicode/unicode_iterator_test.cpp)
-* [source code](https://github.com/ryppl/boost-svn/blob/master/boost/regex/pending/unicode_iterator.hpp)
+* [test code](https://github.com/boostorg/regex/blob/master/test/unicode/unicode_iterator_test.cpp)
+* [source code](https://github.com/boostorg/regex/blob/master/include/boost/regex/pending/unicode_iterator.hpp)
