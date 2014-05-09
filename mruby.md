@@ -84,41 +84,24 @@
   * to load binary outputed by "mrb -B" use mrb_read_irep, use mrb_load_irep to load if "-C","-B" wasn't passed.
 
 ## mrb_get_args() format
-{|
-! char !! mruby type !! C type
-|-
-| o || Object || mrb_value
-|-
-| S || String || mrb_value
-|-
-| A || Array || mrb_value
-|-
-| H || Hash || mrb_value
-|-
-| s || String || char*, int
-|-
-| z || String || char*
-|-
-| a || Array || mrb_value*, mrb_int
-|-
-| f || Float || mrb_float
-|-
-| i || integer || mrb_int
-|-
-| b || boolean || mrb_bool
-|-
-| n || Symbol || mrb_sym
-|-
-| d || Data || void*, mrb_data_type
-|-
-| & || Block || mrb_value
-|-
-| * || rest argument || mrb_value*, int
-|-
-| ｜ || optional || after this character the following argument will be optional
-|-
-| ? ||  optional argument retrieved || mrb_bool
-|}
+char|mruby type|C type
+----|----------|------
+o | Object | mrb_value
+S | String | mrb_value
+A | Array | mrb_value
+H | Hash | mrb_value
+s | String | char*, int
+z | String | char*
+a | Array | mrb_value*, mrb_int
+f | Float | mrb_float
+i | integer | mrb_int
+b | boolean | mrb_bool
+n | Symbol | mrb_sym
+d | Data | void*, mrb_data_type
+& | Block | mrb_value
+* | rest argument | mrb_value*, int
+&#124; | optional | after this character the following arguments will be optional
+? |  optional argument retrieved | mrb_bool
 
 ## Built-in Classes
 * RBasic
