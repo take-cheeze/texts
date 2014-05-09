@@ -1,5 +1,33 @@
 * [photoshop 1.0 source code](http://computerhistory.org/atchm/adobe-photoshop-source-code/)
 
+## Pass Tracing
+* [smallpt](http://www.kevinbeason.com/smallpt/)
+  * [repository](https://github.com/munificent/smallpt)
+  * [js implementation](http://create.stephan-brumme.com/smallpt-js/)
+* [edupt](http://kagamin.net/hole/edupt/index.htm)
+  * [repository](https://github.com/githole/edupt)
+  * [slide](http://www.slideshare.net/h013/edupt-kaisetsu-22852235)
+
+## Pixman
+* PIXel MANipulation library
+* Software rendering backend.
+* [repository](http://cgit.freedesktop.org/pixman/)
+* [pixman.h](http://cgit.freedesktop.org/pixman/tree/pixman/pixman.h)
+* [Writing png from pixman_image_t](http://cgit.freedesktop.org/pixman/commit/?id=99a53667da3014a463b8a0e2b6c317efe0ebb220)
+  * before saving to PNG it renders to PIXMAN_a8r8g8b8 image
+* [Fixing SIZE_MAX error](http://comments.gmane.org/gmane.comp.graphics.pixman/2133)
+  * SIZE_MAX is not in standard(?)
+* pixman_image_create_bits
+  * clears bits when NULL pointer is passed
+  * to skip clearing use _no_clear function
+* [operators](http://cairographics.org/operators/)
+  * document of cairo
+
+## Cairo
+* open source 2d vector image library
+* [manual](http://www.cairographics.org/manual/)
+* Use pixman as backend.
+
 ## Image Processing
 * [HSV and RGB](http://www.technotype.net/tutorial/tutorial.php?fileId=%7BImage%20processing%7D&sectionId=%7B-converting-between-rgb-and-hsv-color-space%7D)
 * [mathematic HSV and RGB tutorial](http://hooktail.org/computer/index.php?RGB%A4%AB%A4%E9HSV%A4%D8%A4%CE%CA%D1%B4%B9%A4%C8%C9%FC%B8%B5)
@@ -10,11 +38,6 @@
   * too big, no generic things
 * [IPL](https://github.com/Argoday/IPL)
 * [DevIL](http://openil.sourceforge.net/)
-
-### Cairo
-* open source 2d vector image library
-* [manual](http://www.cairographics.org/manual/)
-* [ruby binding](http://jp.rubyist.net/magazine/?0019-cairo)
 
 ### Resizing
 * [popular algorithms](http://emaame.com/20080901.html)
