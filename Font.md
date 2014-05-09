@@ -3,7 +3,6 @@
 * [Wikipedia page.](http://en.wikipedia.org/wiki/Glyph_Bitmap_Distribution_Format)
 * [Japanese article about BDF](http://hp.vector.co.jp/authors/VA013241/font/bdf.html)
 * [Cyrillic fonts in X.org](http://rasher.dk/rockbox/fonts/cyrillic/)
-* 
 
 ## Calculating Point
 * [freetype guide](http://www.freetype.org/freetype2/docs/glyphs/glyphs-2.html)
