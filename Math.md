@@ -1,6 +1,10 @@
+
+## Text books.
+* [Statistics PDF text book.](http://www.heisei-u.ac.jp/ba/fukui/text.html)
 * [Online text books of statistics.](http://id.fnshr.info/2013/08/11/online-stat-books/)
 
 ## Writing Formula
+
 ### Tex
 * [Tex Reference Card](http://www.math.brown.edu/~jhs/ReferenceCards/TeXRefCard.v1.5.pdf)
 * [Japanese TeX Reference](http://www002.upp.so-net.ne.jp/latex/)
