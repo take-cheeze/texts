@@ -60,15 +60,15 @@
 The basic is to [do somethings to rdbuf](http://handasse.blogspot.com/2009/05/c.html)but it needs some devise to do it. 
 std::ofstream has const rdbuf() but non-const rdbuf() is hidden so we need to call it by casting to std::ostream like 
 
- <code>static_cast<std::ostream&>(ofs).rdbuf(std::cout.rdbuf());
- 
+```C++
+static_cast<std::ostream&>(ofs).rdbuf(std::cout.rdbuf());
 ```
 
 After output is finished restore the rdbuf that is changed. 
 Or don't use it in long running program.
 
 ## Using clang from python
-- http://eli.thegreenplace.net/2011/07/03/parsing-c-in-python-with-clang/ 
+* http://eli.thegreenplace.net/2011/07/03/parsing-c-in-python-with-clang/ 
 - http://blog.fenrir-inc.com/jp/2011/07/clang_syntax_analysis_interface_with_python.html 
 とかの記事を読んだことはあって前々から使ってみたいと思っていたんですが，スクリプト言語からC++へのバインダを生成するコードを書こうかと思って試してみました．ドキュメントがなかったり，自分の中であんまりうまく整理できてないことが多いせいか目的のモノへはまだ遠いんですが，C++がこうも簡単に使えるとは思っていなかったので楽しいです． 
 実はインストールする方法がよくわかっていなかったのがハードルだったんですが，それが案外と簡単に解決しました．Clangのビルドがずっと必要だと思っていたんですが，実際はlibclangと 
