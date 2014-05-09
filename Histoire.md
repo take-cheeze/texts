@@ -6,4 +6,4 @@
 サイト|概要
 ------|----
 [公式サポート](http://www.sk.aitai.ne.jp/~kakesu/histoire_support/)|開発は終わったらしい
-[イストワール攻略](http://dimensional2nd.tuzikaze.com/histoire/histoire.html)
+[イストワール攻略](http://dimensional2nd.tuzikaze.com/histoire/histoire.html)|
