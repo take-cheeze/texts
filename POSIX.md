@@ -1,3 +1,5 @@
+* Use [The Open Group page to search for API](http://pubs.opengroup.org/onlinepubs/9699919799/).
+
 ## home directory
 * [Getting Windows home directory.](http://support.microsoft.com/kb/101507/en-us)
   * `%HOMEDRIVE%%HOMEPATH%`
