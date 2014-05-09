@@ -7,7 +7,8 @@
   * good document to read before reading LLVM code
 
 ## Repository
-* [github mirror](https://github.com/llvm-mirror)
+* [github mirror](https://github.com/chapuni/llvm-project)
+  * Owned by developer of LLVM.
 
 ## bitcode
 * binary expression of LLVM IR
