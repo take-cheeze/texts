@@ -5,6 +5,7 @@
   * [maloader for dynamic loader?](https://github.com/shinh/maloader)
 * [user global environment variable](http://news.mynavi.jp/column/osxhack/083/index.html)
 * [creating ram disk](http://blog.dateofrock.com/2010/02/osxram.html)
+* [howto get rid of "you have new mail"](http://superuser.com/questions/149282/safely-get-rid-of-you-have-new-mail-in-var-mail-on-a-mac)
 
 ## [maloader](https://github.com/shinh/maloader)
 * [Mach-O and maloader](http://d.hatena.ne.jp/shinichiro_h/touch/20110428/1304002959)
