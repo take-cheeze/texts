@@ -1,4 +1,10 @@
 * Use [The Open Group page to search for API](http://pubs.opengroup.org/onlinepubs/9699919799/).
+ 
+## grep
+* -o: output matched strings
+
+## statfs
+* [statvfs and statfs](http://stackoverflow.com/questions/1653163/difference-between-statvfs-and-statfs-system-calls)
 
 ## home directory
 * [Getting Windows home directory.](http://support.microsoft.com/kb/101507/en-us)
