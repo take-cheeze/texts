@@ -4,6 +4,11 @@
 * [mruby to c parser](https://github.com/mrbrdo/mruby_cc)
 * [related projects](https://github.com/mruby/mruby/wiki/Related-Projects)
 
+## Rstring
+* [Notes about RString](http://note.huangz.me/en/latest/language/mruby-code-analysis/string.html)
+  * Has notes about how embedded RString is implemented.
+  * Written in Chinese. Though Google translation to English is readable.
+
 ## Exceptions
 * Uses longjmp/setjmp internally.
 * When C++ code is mixed it will use C++ exception instead.
