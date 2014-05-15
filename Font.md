@@ -31,7 +31,7 @@
 
  for (row = 0; row < bm->rows; row ++) {
      for (col = 0; col < bm->pitch; col ++) {
-         c = bm->buffer[* row + col](bm->pitch);
+         c = bm->buffer[bm->pitch * row + col];
          for (bit = 7; bit >= 0; bit --) {
              if (((c >> bit) & 1) == 0)
                  printf("  ");
