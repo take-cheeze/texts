@@ -3,6 +3,7 @@
 * [Wikipedia page.](http://en.wikipedia.org/wiki/Glyph_Bitmap_Distribution_Format)
 * [Japanese article about BDF](http://hp.vector.co.jp/authors/VA013241/font/bdf.html)
 * [Cyrillic fonts in X.org](http://rasher.dk/rockbox/fonts/cyrillic/)
+* [Spec(PDF)](http://partners.adobe.com/public/developer/en/font/5005.BDF_Spec.pdf)
 * Origin is lower left corner.
 * The bit order is same as freetype.
 
