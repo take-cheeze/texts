@@ -68,8 +68,8 @@
 
 ## MIDI
 * Score for synthesizers.
-* Needs sound font to play in software synthesizer.
 * Timidity and FluidSynth is a popular free software synthesizer.
+* Needs sound font to play in software synthesizer.
 * [Tick](http://www.blitter.com/~russtopia/MIDI/~jglatt/tech/midispec/tick.htm)
 * [Example API](http://www.sjbaker.org/wiki/index.php?title=MIDIfile_player_library_API)
 * [rpg maker xp](http://mimikopi.nomaki.jp/domino/rpgxp/index.html)
@@ -81,7 +81,7 @@
 * [RPG Maker XP midi](http://mimikopi.nomaki.jp/domino/rpgxp/index.html)
 
 ### Sound Font
-* [Spec](http://connect.creativelabs.com/developer/SoundFont/sfspec21.pdf)
+* [Spec](http://www.synthfont.com/sfspec24.pdf)
 * [fluidsynth sound font](http://sourceforge.net/apps/trac/fluidsynth/wiki/SoundFont)
 
 ### File Format
