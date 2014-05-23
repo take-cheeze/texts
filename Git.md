@@ -4,6 +4,10 @@
 * [zsh setting](http://qiita.com/items/8d5a627d773758dd8078)
 * [svn2github mirroring](http://svn2github.com/)
 * [subtree merge instruction](https://help.github.com/articles/working-with-subtree-merge)
+* [Closing issue via commit message](https://help.github.com/articles/closing-issues-via-commit-messages)
+  * close, closes, closed
+  * fix, fixes, fixed
+  * resolve, resolves, resolved
 
 ## magit
 * Best git-mode on Emacs.
