@@ -95,16 +95,16 @@ o | Object | mrb_value
 S | String | mrb_value
 A | Array | mrb_value
 H | Hash | mrb_value
-s | String | char*, int
+s | String | char*, mrb_int
 z | String | char*
-a | Array | mrb_value*, mrb_int
+a | Array | mrb\_value\*, mrb_int
 f | Float | mrb_float
 i | integer | mrb_int
 b | boolean | mrb_bool
 n | Symbol | mrb_sym
-d | Data | void*, mrb_data_type
+d | Data | void*, mrb\_data\_type
 & | Block | mrb_value
-* | rest argument | mrb_value*, int
+\* | rest argument | mrb\_value*,  mrb_int
 &#124; | optional | after this character the following arguments will be optional
 ? |  optional argument retrieved | mrb_bool
 
