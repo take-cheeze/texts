@@ -1,5 +1,10 @@
 * Platform as a Service
 
+## [Repo plugin](https://github.com/heroku/heroku-repo)
+* Heroku plugin to manage repository.
+* `repo:purge_cache` command will remove cached files.
+* `repo:rebuild` command will rebuild app.
+
 ## [.profile.d scripts](https://devcenter.heroku.com/articles/profiled)
 * config file to specify stable env variable such as $PATH
 * scripts execute order isn't defined so scripts must be independent from it
