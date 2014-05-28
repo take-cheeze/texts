@@ -1,3 +1,7 @@
+## IRC
+* [Protocol(RFC)](http://tools.ietf.org/html/rfc1459.html)
+* [Web interface of freenode.](http://webchat.freenode.net/)
+
 ## HTTP
 * [HTTP2 tests](https://github.com/http2/http2-test)
 
