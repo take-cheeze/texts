@@ -2,6 +2,7 @@
 * famous as I/O library of in node.js
 * used as modern I/O library backend like rust
 * [About serial port support.](https://github.com/joyent/node/issues/4092)
+* [Simple HTTP server using libuv](https://github.com/mattn/http-server/blob/master/server.c)
 
 ## Document
 * [uv.h](https://github.com/joyent/libuv/blob/master/include/uv.h)
