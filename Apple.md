@@ -1,3 +1,7 @@
+## [Metal](https://developer.apple.com/library/prerelease/ios/documentation/Metal/Reference/MetalShadingLanguageGuide/Introduction/Introduction.html)
+* New shading language for OS X and iOS.
+* Language is based on C++11.
+
 ## OS X
 * OS used in Apple Intel hardware.
 * [Darling](http://darling.dolezel.info/en/Darling)
