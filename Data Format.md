@@ -1,4 +1,7 @@
 * [detecting endianness using C union](http://stackoverflow.com/questions/1001307/detecting-endianness-programmatically-in-a-c-program)
+* [Variable-length quantity](http://en.wikipedia.org/wiki/Variable-length_quantity)
+ * Used in MIDI.
+ * Other name BER compressed integer.
 
 ## [Dalvik executable format](http://source.android.com/devices/tech/dalvik/dex-format.html)
 * Codes used in android.
