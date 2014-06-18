@@ -1,7 +1,6 @@
 * [cppreference.com](http://en.cppreference.com/w/cpp/header)
   * Has many description of C++11
   * Maybe the best in current C++ reference
-* [cplusplus.com](http://www.cplusplus.com/reference/)
 * [cpprefjp](https://sites.google.com/site/cpprefjp/)
   * Best C++ reference in Japanese.
 * [boostjp](https://sites.google.com/site/boostjp/)
@@ -28,6 +27,7 @@
   * Haskell's syntax is better
 * [Implicit Cast](http://en.cppreference.com/w/cpp/language/implicit_cast)
 * [diff template library](https://github.com/cubicdaiya/dtl)
+* [Better stream iterator in boost.spirit.](http://boost-spirit.com/home/2010/01/05/stream-based-parsing-made-easy/)
 
 ## ABI
 * [Summary](http://mentorembedded.github.io/cxx-abi/)
@@ -152,7 +152,6 @@ gcc
   * [C version](http://www.csci.csusb.edu/dick/samples/c.syntax.html)
 
 ## Boost
-* [mirror](https://github.com/ryppl/boost-svn)
 
 ### Container
 * [Document](http://www.boost.org/doc/libs/release/doc/html/container.html)
@@ -162,14 +161,12 @@ gcc
 * flat container
   * Sorted vector.
 
-
-
 ## [BOOST_CURRENT_FUNCTION](http://textt.net/take_cheeze/20101027154606/14)
 このマクロを知らなかったのでちょっと、損してました。nutbindのdebug.hppでわざわざこれと同じ事は要らなくて、<boost/current_function.hpp>をインクルードして、BOOST_CURRENT_FUNCTIONと黙って書いておけばよかったんです。
 ( https://github.com/take-cheeze/langbind/blob/204b46cc34a99f486786fc6aeb75c0118e3f1416/nutbind/detail/debug.hpp ) 
 GCCの__PRETTY_FUNCTION__はC++のテンプレート引数とかもちゃんと書いてくれるのでこれに移植性が高いものなら素晴らしいです。
 
-## [Boost.Localが採択されたらしい](http://textt.net/take_cheeze/20101027154606/13)
+## Boost.Localが採択されたらしい
 ちょっと気乗りしてなかったので、モチベーションを上げるために採択されたとタイムラインで話題になっていたBoost.Localを調べてました。一応、英語の勉強です。(；･`д･´)  
 まず、どうゆうライブラリなのかというと、関数内でも関数を定義できるようにするものです。"struct { T operator()() {} } func;"みたいな仕組み...らしいんですが、それ以外にローカル変数の拘束や、C++03でのサポート、C99のサポートなど、とっても変態だと思います。 
 
