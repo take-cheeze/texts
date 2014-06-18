@@ -64,9 +64,12 @@
 * Score for synthesizers.
 * Timidity and FluidSynth is a popular free software synthesizer.
 * Needs sound font to play in software synthesizer.
+* [Specifications](http://www.midi.org/techspecs/)
 * [Tick](http://www.blitter.com/~russtopia/MIDI/~jglatt/tech/midispec/tick.htm)
 * [Example API](http://www.sjbaker.org/wiki/index.php?title=MIDIfile_player_library_API)
 * [rpg maker xp](http://mimikopi.nomaki.jp/domino/rpgxp/index.html)
+* [Notes](http://magarchive.halfmoon.jp/nifty/midi/vvesymidi2.html)
+* [Tempo of multiple tracks](http://stackoverflow.com/questions/1080297/how-does-midi-tempo-message-apply-to-other-tracks)
 
 ### Library
 * [The Synthesis ToolKit in C++ (STK)](https://ccrma.stanford.edu/software/stk/)
