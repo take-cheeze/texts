@@ -14,6 +14,7 @@
   * http://www.tktkgame.com/tkool/memo/rgss/reset2.html
 * [RGSS error handling](http://www5f.biglobe.ne.jp/~delusion/tech/text_004.html)
 * [table class marshaling](http://d.hatena.ne.jp/mirichi/20090501/p4)
+* [Color balance(`Tone` algorithm)](http://en.wikipedia.org/wiki/Color_balance)
 
 ## Archive
 * encrypted game data archive
