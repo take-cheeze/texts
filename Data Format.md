@@ -1,5 +1,11 @@
 * [detecting endianness using C union](http://stackoverflow.com/questions/1001307/detecting-endianness-programmatically-in-a-c-program)
 
+## [Dalvik executable format](http://source.android.com/devices/tech/dalvik/dex-format.html)
+* Codes used in android.
+* `.dex` is the extension of the file.
+* [Uses LEB128 to store integer.](http://en.wikipedia.org/wiki/LEB128)
+ * The order is opposite from BER compressed integer.
+
 ## Ruby Marshaling
 * [usage of Marshal module](http://www.ruby-doc.org/core-2.0/Marshal.html)
 * [old draft](http://www.ruby-lang.org/ja/old-man/html/Marshal_A5D5A5A9A1BCA5DEA5C3A5C8.html)
