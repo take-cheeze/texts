@@ -41,3 +41,4 @@
   * [ToyClangPlugin.cpp](https://github.com/AlexDenisov/ToyClangPlugin/blob/master/ToyClangPlugin.cpp)
     * Good example for diagnostic engine(printing error message).
 * [Document of Recursive AST Visitor.](https://github.com/chapuni/llvm-project/blob/master/clang/docs/RAVFrontendAction.rst)
+* [How to create clang plugin for Xcode clang.](http://railsware.com/blog/2014/02/28/creation-and-using-clang-plugin-with-xcode/)
