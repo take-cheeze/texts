@@ -76,7 +76,9 @@
 
 ### Sound Font
 * [Spec](http://www.synthfont.com/sfspec24.pdf)
-* [fluidsynth sound font](http://sourceforge.net/apps/trac/fluidsynth/wiki/SoundFont)
+* [fluidsynth sound font(Fluid R3)](http://sourceforge.net/apps/trac/fluidsynth/wiki/SoundFont)
+* [Sound font review.](http://www3.ocn.ne.jp/~hix/soundfonts.html)
+ * SGM seems good.
 
 ### File Format
 * Major format is SMF(Standard MIDI Format)
