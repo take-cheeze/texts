@@ -8,7 +8,7 @@
   * Marshal.dump of ruby object
   * In root array 0th element is nil
   * Scripts.rxdata
-    * <nowiki>data[= [some number, script name, deflated(use zlib) script data](index])</nowiki>
+    * `data[index] = [some number, script name, deflated(use zlib) script data]`
 * reset(RGSS1/RGSS2)
   * http://www.tktkgame.com/tkool/memo/rgss/reset.html
   * http://www.tktkgame.com/tkool/memo/rgss/reset2.html
