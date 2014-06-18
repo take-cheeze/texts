@@ -11,24 +11,17 @@
 * MIDI
   * using fluidsynth
     * [http://wootangent.net/2010/11/converting-midi-to-wav-or-mp3-the-easy-way/]
-```
- fluidsynth -F out.wav /usr/share/sounds/sf2/FluidR3_GM.sf2 myfile.mid
-
-```
+    * `fluidsynth -F out.wav /usr/share/sounds/sf2/FluidR3_GM.sf2 myfile.mid`
     * [2 step version](http://music.columbia.edu/pipermail/linux-audio-user/2006-December/040654.html)
 ```
  fluidsynth -i -a file <sound font> <midi>
  sox -r 44100 -w -c 2 -s fluidsynth.raw fluidsynth.wav
-
 ```
   * using timidity
     * [changing output type](http://wiki.livedoor.jp/cafeboy1/d/TiMidity%20%A4%CE%BB%C8%A4%A4%CA%FD%20%3A%3A%20%B2%BB%B8%BB%CA%D1%B4%B9)
-```
- timidity /path/to/midi/file/.mid -Ow -o /path/to/output/file/.wav
-
-```
+ * `timidity /path/to/midi/file/.mid -Ow -o /path/to/output/file/.wav`
 * ogg
-  * use '''oggenv''' to convert wave to ogg
+  * use `oggenv` to convert wave to ogg
 
 ## [OpenAL](http://connect.creativelabs.com/openal/default.aspx)
 * [OpenAL Japanese translation](http://www.memorize-being.net/releases/oal11spec-ja/)
@@ -36,35 +29,30 @@
 * OpenSL is the official Khronos library but OpenAL is more popular.
 * ALC_ALL_DEVICES_SPECIFIER: list all devices
 * [OpenAL Document](http://connect.creativelabs.com/openal/Documentation/OpenAL%201.1%20Specification.htm)
-* OpenAL Utility Toolkit
-  * [Document](http://connect.creativelabs.com/openal/Documentation/The%20OpenAL%20Utility%20Toolkit.htm)
-  * Context managing other utility.
-  * Supplement not like OpenGL
-* [WebAL](https://github.com/benvanik/WebAL)
-  * javascript port of OpenAL
+* [Reading audio files using libsndfile.](https://gist.github.com/take-cheeze/4233185)
 * Streaming
   * [iOS](http://benbritten.com/2010/05/04/streaming-in-openal/)
   * [Example](http://sugarpot.sakura.ne.jp/yuno/?OpenAL%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E5%86%8D%E7%94%9F)
+
+### OpenAL Utility Toolkit
+* [Document](http://connect.creativelabs.com/openal/Documentation/The%20OpenAL%20Utility%20Toolkit.htm)
+* Context managing other utility.
+* Supplement not like OpenGL
+
+### [WebAL](https://github.com/benvanik/WebAL)
+* javascript port of OpenAL
+
+### [OpenAL Soft](http://openal-soft.org/)
+* [Public repository](http://repo.or.cz/w/openal-soft.git)
 * [config file writing](http://castle-engine.sourceforge.net/openal.php)
   * [config file path](http://repo.or.cz/w/openal-soft.git/blob/HEAD:/Alc/alcConfig.c#l208)
-    * /etc/openal/alsoft.conf
-    * $HOME/.alsoftrc
-    * $ALSOFT_CONF
+    * `/etc/openal/alsoft.conf`
+    * `$HOME/.alsoftrc`
+    * `$ALSOFT_CONF`
 ```
  [wave]
  file = /tmp/output.wav
-
 ```
-* [OpenAL Soft](http://openal-soft.org/)
-  * [Public repository](http://repo.or.cz/w/openal-soft.git)
-* reading ogg
-  * [http://www.gamedev.net/topic/609666-streaming-ogg-files-with-openal/]
-  * [example](https://gist.github.com/611624)
-  * [http://www5.ocn.ne.jp/~tane/prog/oggplayer/oggplayer.html]
-  * [java implementation](http://jogamp.org/joal-demos/www/devmaster/lesson8.html)
-  * [using source queue](http://devmaster.net/posts/2895/openal-lesson-8-oggvorbis-streaming-using-the-source-queue)
-* [reading wave file](http://kcat.strangesoft.net/openal-tutorial.html)
-* [ruby bindings](https://rubygems.org/gems/ruby-openal)
 
 ## MIDI
 * Score for synthesizers.
@@ -88,19 +76,12 @@
 * Major format is SMF(Standard MIDI Format)
 * [Standard File Format](http://home.roadrunner.com/~jgglatt/tech/midifile.htm)
 * [Standard MIDI File format](http://www.omnibase.net/smf/)
+ * Based on "SMFリファレンスブック"(ISBN-13: 978-4845601622)
 * [MIDI message](http://www.midi.org/techspecs/midimessages.php)
 * [Japanese SMF spec](http://www2s.biglobe.ne.jp/~yyagi/material/smfspec.html)
 * [Japanese SMF spec 2](http://mofo.pns.to/wibs/?#63)
-
-#### Chunk
-```
- struct Chunk {
-   char ID[4];
-   uint32_t size;
-   uint8_t data[size];
- };
-
-```
+* [Has notes about standards](http://www.petesqbsite.com/sections/express/issue18/midifilespart1.html)
+* http://www.sonicspot.com/guide/midifiles.html
 
 ### Timidity
 * [Home page](http://timidity.sourceforge.net/)
@@ -125,7 +106,6 @@
 
 ### [libsndfile](http://www.mega-nerd.com/libsndfile/)
 * Library to read many type of audio file.
-* [using it with OpenAL](https://gist.github.com/4233185)
 * [Document](http://www.mega-nerd.com/libsndfile/api.html)
 * [read/write example](http://haraita9283.blog98.fc2.com/blog-entry-233.html)
 
