@@ -75,10 +75,21 @@
 * [RPG Maker XP midi](http://mimikopi.nomaki.jp/domino/rpgxp/index.html)
 
 ### Sound Font
+* File format to store MIDI base sounds.
+* Widely used in software synthesizer
 * [Spec](http://www.synthfont.com/sfspec24.pdf)
 * [fluidsynth sound font(Fluid R3)](http://sourceforge.net/apps/trac/fluidsynth/wiki/SoundFont)
 * [Sound font review.](http://www3.ocn.ne.jp/~hix/soundfonts.html)
  * SGM seems good.
+
+#### [sfArk](http://melodymachine.com/sfark.htm)
+* Sound font archive format.
+* Using zlib internally.
+* [sfArkLib](https://github.com/raboof/sfArkLib)
+ * Library for sfArk format.
+* [sfarkxtc](https://github.com/raboof/sfarkxtc)
+ * sfArk extractor.
+ * Need sfArkLib to build.
 
 ### File Format
 * Major format is SMF(Standard MIDI Format)
