@@ -1,5 +1,19 @@
 * [Table](http://ash.jp/code/unitbl21.htm)
- 
+
+## [International Components of Unicode](http://site.icu-project.org/)
+* [Charactor set detection](http://userguide.icu-project.org/conversion/detection)
+* [Cross build](http://source.icu-project.org/repos/icu/icu/trunk/readme.html#HowToCrossCompileICU)
+```shell
+cd buildA
+sh icu/source/runConfigureICU $BUILD_PLATFORM
+gnumake
+
+PATH=...
+FLAGS=...
+cd buildB
+sh /icu/source/configure --host=$HOSTNAME --with-cross-build=/buildA
+```
+
 ## Ruby
 * [Encoding](http://www.ruby-doc.org/core/Encoding.html)
 * [Encoding::Converter](http://www.ruby-doc.org/core/Encoding/Converter.html)
