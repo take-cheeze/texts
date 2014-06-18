@@ -1,4 +1,5 @@
 * Platform as a Service
+* [About logging.](https://devcenter.heroku.com/articles/logging)
 
 ## [Repo plugin](https://github.com/heroku/heroku-repo)
 * Heroku plugin to manage repository.
