@@ -5,7 +5,8 @@
 ## [Catch](https://github.com/philsquared/Catch)
 * Header only C++ test library.
 * [Documentation.](https://github.com/philsquared/Catch/tree/master/docs)
-* Has two family of macro
+* Doesn't have `*_EQUALS` or `*_GREATER_THAN` kind of macro. Prefers C++ syntax instead.
+* Has two family of macro:
  * `REQUIRE`: when failed stops execution.
  * `CHECK`: continue executing although it failed.
 
