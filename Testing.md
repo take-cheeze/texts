@@ -1,7 +1,13 @@
-## Outline 
 * Writing test and running it improves software.
 * There is many tools for it.
 * "Design by Contract" is similar to testing
+
+## [Catch](https://github.com/philsquared/Catch)
+* Header only C++ test library.
+* [Documentation.](https://github.com/philsquared/Catch/tree/master/docs)
+* Has two family of macro
+ * `REQUIRE`: when failed stops execution.
+ * `CHECK`: continue executing although it failed.
 
 ## Boost 
 * Boost has test library but not useful as others. It's just better than assert() macro
