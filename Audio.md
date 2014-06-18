@@ -54,6 +54,12 @@
  file = /tmp/output.wav
 ```
 
+#### MIDI support
+* Implemented as extension of OpenAL.
+* [Basic information about MIDI extension.](http://openal.org/pipermail/openal/2014-January/000005.html)
+* Needs to get function pointers with `alcGetProcAddress`.
+* The unit of clock is changed to **micro-second** to **nano-second** after the mail.
+
 ## MIDI
 * Score for synthesizers.
 * Timidity and FluidSynth is a popular free software synthesizer.
