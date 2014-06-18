@@ -8,6 +8,10 @@
 * [OpenGL Tutorial](http://open.gl/introduction)
 * [blend funcs](http://d.hatena.ne.jp/melpon/20070824/p1)
 
+## [GLM](http://glm.g-truc.net/)
+* [repository](https://github.com/g-truc/glm)
+* [document](http://glm.g-truc.net/api/index.html)
+
 ### EGL
 * interface betweem OpenGL API
 * [EGL and EAGL](http://db-in.com/blog/2011/02/khronos-egl-and-apple-eagl/)
