@@ -6,6 +6,7 @@
 * [SOIL](http://www.lonesock.net/soil.html)(Simple OpenGL Image Library)
   * png/bmp to OpenGL texture
 * [OpenGL Tutorial](http://open.gl/introduction)
+* [blend funcs](http://d.hatena.ne.jp/melpon/20070824/p1)
 
 ### EGL
 * interface betweem OpenGL API
