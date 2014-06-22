@@ -1,3 +1,7 @@
+* [visudo](http://www.sudo.ws/visudo.man.html)
+ * Command to edit `sudo` configuration.
+ * Uses `EDITOR` env var.
+
 ## [Metal](https://developer.apple.com/library/prerelease/ios/documentation/Metal/Reference/MetalShadingLanguageGuide/Introduction/Introduction.html)
 * New shading language for OS X and iOS.
 * Language is based on C++11.
