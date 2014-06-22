@@ -22,6 +22,7 @@
  * `timidity /path/to/midi/file/.mid -Ow -o /path/to/output/file/.wav`
 * ogg
   * use `oggenv` to convert wave to ogg
+* [Using fluidsynth and sox command to convert MIDI to WAV.](http://stackoverflow.com/questions/19762063/convert-midi-file-to-wav-using-fluidsynth-on-os-x)
 
 ## Library
 * [jdksmidi](https://github.com/jdkoftinoff/jdksmidi)
