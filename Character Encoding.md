@@ -2,6 +2,7 @@
 
 ## [International Components of Unicode](http://site.icu-project.org/)
 * [Charactor set detection](http://userguide.icu-project.org/conversion/detection)
+ * [API reference](http://www.icu-project.org/apiref/icu4c/ucsdet_8h.html)
 * [Cross build](http://source.icu-project.org/repos/icu/icu/trunk/readme.html#HowToCrossCompileICU)
 ```shell
 cd buildA
