@@ -40,6 +40,7 @@
 
 ## Timidity
 * [Home page](http://timidity.sourceforge.net/)
+* [repository](http://sourceforge.net/p/timidity/git/ci/master/tree/)
 * [Latest Timidity](http://bluewing.usamimi.info/timidity/index.php)
 * [Timidity for Mac](http://www.asahi-net.or.jp/~gb7t-ngm/timidity.old/index.html)
 * [Timidity for Mac OS X](https://github.com/albertz/timidity-macosx)
@@ -51,3 +52,4 @@
 
 ## FluidSynth
 * [Document](http://fluidsynth.sourceforge.net/api/)
+* [arch linux wiki page](https://wiki.archlinux.org/index.php/FluidSynth)
