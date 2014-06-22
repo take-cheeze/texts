@@ -17,6 +17,7 @@
 * [howto get rid of "you have new mail"](http://superuser.com/questions/149282/safely-get-rid-of-you-have-new-mail-in-var-mail-on-a-mac)
 * [Using correct keybindings in emacs on iTerm](http://stackoverflow.com/questions/10871745/shift-up-arrow-doesnt-highlight-text-emacs-iterm2)
  * `TERM=xterm-vt220`
+* [Hiding users from GUI.](http://support.apple.com/kb/HT5017)
 
 ### [maloader](https://github.com/shinh/maloader)
 * [Mach-O and maloader](http://d.hatena.ne.jp/shinichiro_h/touch/20110428/1304002959)
