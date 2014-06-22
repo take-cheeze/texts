@@ -8,6 +8,7 @@
 * Streaming
   * [iOS](http://benbritten.com/2010/05/04/streaming-in-openal/)
   * [Example](http://sugarpot.sakura.ne.jp/yuno/?OpenAL%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E5%86%8D%E7%94%9F)
+* [How to use buffer queues.](http://kcat.strangesoft.net/openal-tutorial.html)
 
 ## OpenAL Utility Toolkit
 * [Document](http://connect.creativelabs.com/openal/Documentation/The%20OpenAL%20Utility%20Toolkit.htm)
@@ -34,3 +35,4 @@
 * [Basic information about MIDI extension.](http://openal.org/pipermail/openal/2014-January/000005.html)
 * Needs to get function pointers with `alcGetProcAddress`.
 * The unit of clock is changed to **micro-second** to **nano-second** after the mail.
+* [Using fluidsynth directly instead of extension.](https://gist.github.com/take-cheeze/43f026d07547b9399738)
