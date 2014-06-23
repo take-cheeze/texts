@@ -1,4 +1,9 @@
 * [photoshop 1.0 source code](http://computerhistory.org/atchm/adobe-photoshop-source-code/)
+* [How to creating rotation matrix in arbitrary point.](http://imagingsolution.net/math/rotate-around-point/)
+ * Create translation matrix to the (0, 0).
+ * Multiply with the rotation matrix.
+ * Multiply scale matrix if you need it.
+ * Multiply the oppsite direction matrix of the first translation matrix.
 
 ## Pass Tracing
 * [smallpt](http://www.kevinbeason.com/smallpt/)
