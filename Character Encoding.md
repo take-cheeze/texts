@@ -1,4 +1,10 @@
-* [Table](http://ash.jp/code/unitbl21.htm)
+## [Universal Charset Detection](http://www-archive.mozilla.org/projects/intl/UniversalCharsetDetection.html)
+* Charset detector used in firefox.
+* Some documents are outdated.
+* [API usage and how to build a stand alone library.](http://www-archive.mozilla.org/projects/intl/detectorsrc.html)
+ * API is little outdated.
+* [Japanese notes](http://wiki.suikawiki.org/n/Universalchardet)
+* [Latest code in gecko-dev.](https://github.com/mozilla/gecko-dev/tree/master/extensions/universalchardet)
 
 ## [International Components of Unicode](http://site.icu-project.org/)
 * [Charactor set detection](http://userguide.icu-project.org/conversion/detection)
@@ -29,6 +35,7 @@ sh /icu/source/configure --host=$HOSTNAME --with-cross-build=/buildA
 
 ## iconv
 * command and library to convert character encoding
+* [iconv usage](http://www.gnu.org/software/libc/manual/html_node/Generic-Charset-Conversion.html)
 * library
   * [windows libiconv](http://gnuwin32.sourceforge.net/packages/libiconv.htm)
   * [japanese man page](http://linuxjm.sourceforge.jp/html/LDP_man-pages/man3/iconv.3.html)
