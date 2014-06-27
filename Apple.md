@@ -2,6 +2,12 @@
  * Command to edit `sudo` configuration.
  * Uses `EDITOR` env var.
 
+## iCloud
+* cloud service of Apple
+* used as external storage of iOS
+* [mail server configuration](http://support.apple.com/kb/HT4864)
+
+
 ## [Metal](https://developer.apple.com/library/prerelease/ios/documentation/Metal/Reference/MetalShadingLanguageGuide/Introduction/Introduction.html)
 * New shading language for OS X and iOS.
 * Language is based on C++11.
