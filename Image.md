@@ -5,7 +5,11 @@
  * Multiply scale matrix if you need it.
  * Multiply the oppsite direction matrix of the first translation matrix.
 
-## Pass Tracing
+## OCR
+* [tesseract-ocr](https://code.google.com/p/tesseract-ocr/)
+  * Open sourced OCR engine.
+
+## Path Tracing
 * [smallpt](http://www.kevinbeason.com/smallpt/)
   * [repository](https://github.com/munificent/smallpt)
   * [js implementation](http://create.stephan-brumme.com/smallpt-js/)
