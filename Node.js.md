@@ -85,6 +85,8 @@
 * [Connect](http://www.senchalabs.org/connect/)
   * Middle ware used in express.
   * Add support of compression.
+* [Using session in express.](http://blog.modulus.io/nodejs-and-express-sessions)
+  * Use cookie parser and express.session.
 
 ## Request Module
 * [Repository](https://github.com/mikeal/request)
