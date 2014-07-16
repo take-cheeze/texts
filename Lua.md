@@ -23,6 +23,8 @@
 * Lua C++ binder.
 * [Repository](https://github.com/luabind/luabind)
 * [Document](http://www.rasterbar.com/products/luabind/docs.html)
+* [About current most developed luabind fork](https://sourceforge.net/p/luabind/mailman/luabind-user/thread/12976453.uLFjAm3qha@ernie/)
+  * [The latest stable luabind.](https://github.com/rpavlik/luabind)
 
 ## LuaBridge
 * Another Lua binder.
