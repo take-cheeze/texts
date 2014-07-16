@@ -3,6 +3,7 @@
 * [OpenSL](http://www.khronos.org/registry/sles/)
 * [audio processing in C (book)](http://floor13.sakura.ne.jp/book03/book03.html)
 * [sox command document](http://sox.sourceforge.net/sox.html)
+* [MS ADPCM format](http://www.wiki.multimedia.cx/index.php?title=Microsoft_ADPCM)
 
 ## [Julius](http://julius.sourceforge.jp/)
 * large vocabulary continuous speech recognition
