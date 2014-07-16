@@ -1,6 +1,8 @@
 * [visudo](http://www.sudo.ws/visudo.man.html)
  * Command to edit `sudo` configuration.
  * Uses `EDITOR` env var.
+* [DYLD](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/dyld.1.html)
+ * Has documents of dyld environment variables.
 
 ## iCloud
 * cloud service of Apple
