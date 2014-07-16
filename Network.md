@@ -4,6 +4,7 @@
 
 ## HTTP
 * [HTTP2 tests](https://github.com/http2/http2-test)
+* [Installing RapidSSL to apache.](http://dounokouno.com/2011/04/07/%E3%81%95%E3%81%8F%E3%82%89%E3%81%AEvps%EF%BC%88centos-5-5%EF%BC%89%E3%81%AB-rapidssl-%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%81%BE%E3%81%A7%E3%81%AE/)
 
 ## [Mutlicast DNS](http://www.multicastdns.org/)
 * Zero configuration DNS by Apple.
