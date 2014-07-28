@@ -26,8 +26,14 @@
 * [Using correct keybindings in emacs on iTerm](http://stackoverflow.com/questions/10871745/shift-up-arrow-doesnt-highlight-text-emacs-iterm2)
  * `TERM=xterm-vt220`
 * [Hiding users from GUI.](http://support.apple.com/kb/HT5017)
-* Checking Wi-Fi.
+
+### Wi-Fi
+* Checking Wi-Fi status.
  * `/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s`
+* [KisMac2](https://github.com/IGRSoft/KisMac2)
+ * Wi-Fi tool for OS X.
+ * Can capture Wi-Fi packets.
+ * KisMac fork with supports.
 
 ### [maloader](https://github.com/shinh/maloader)
 * [Mach-O and maloader](http://d.hatena.ne.jp/shinichiro_h/touch/20110428/1304002959)
