@@ -5,6 +5,8 @@
 * [Simple HTTP server using libuv](https://github.com/mattn/http-server/blob/master/server.c)
 
 ## Document
+* [Official documentation](http://libuv.readthedocs.org/en/latest/)
+ * uv.h documentation will be deprecated.
 * [uv.h](https://github.com/joyent/libuv/blob/master/include/uv.h)
 * [uvbook](http://nikhilm.github.io/uvbook/)
 * [libuv-dox](https://github.com/thlorenz/libuv-dox)
