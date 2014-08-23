@@ -3,6 +3,7 @@
 * [emscripten changes](https://github.com/replit/emscripted-ruby/commit/c78f8457817e1fd57f7f464ae9a8158b13dac371)
 * [mruby to c parser](https://github.com/mrbrdo/mruby_cc)
 * [related projects](https://github.com/mruby/mruby/wiki/Related-Projects)
+* [Code search anything related to mruby.](http://mruby-code-search.ongaeshi.me/)
 
 ## RString
 * [Notes about RString](http://note.huangz.me/en/latest/language/mruby-code-analysis/string.html)
@@ -135,11 +136,11 @@ d | Data | void*, mrb\_data\_type
 * How to build mruby
 
 ## Fiber
-* [https://github.com/mruby/mruby/issues/80 Not implemented](])
+* [Not implemented](https://github.com/mruby/mruby/issues/80)
+ * [impelemented](https://github.com/mruby/mruby/commit/5c0b9b703c9d1a08d7219b057b809bda4bc89f8a)
 * [CRuby Fiber API](http://www.ruby-doc.org/core-1.9.3/Fiber.html)
 * If single argument is passed to Fiber.yield that argument is returned.
 * When multiple arguments is passed to Fiber.yield array of arguments is returned.
-* ['''impelemented'''](https://github.com/mruby/mruby/commit/5c0b9b703c9d1a08d7219b057b809bda4bc89f8a)
 
 ## Weak Reference
 * Seems not implemented.
