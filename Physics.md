@@ -1,3 +1,6 @@
+* [OA pinafore](http://shigeo-t.hatenablog.com/entry/2013/10/11/105004)
+ * Good radio wave blocker.
+
 ## Seebeck effect 
 * Same as Thermocouple.
 * Use in thermoelectric generator.
