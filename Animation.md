@@ -1,3 +1,6 @@
+* [About North American version.](http://blog.livedoor.jp/uritwi/archives/35775487.html)
+ * Somehow blu-ray or DVD imported to Japan is much more cheaper.
+
 ## selector infected WIXOSS
 * [Interview of director Satou Takuya.](http://mantan-web.jp/2014/05/10/20140509dog00m200037000c.html)
 * [Interview in official site.](http://selector-wixoss.com/interview/index.html)
