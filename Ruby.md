@@ -30,9 +30,14 @@
   * service that can find most ruby document
   * little slow since it is generated dynamically
 
+## About regex engine in ruby.
+* [Oniguruma to Onigmo](https://bugs.ruby-lang.org/issues/5820)
+ * Before 2.0 it used [Oniguruma(鬼車)](http://www.geocities.jp/kosako3/oniguruma/).
+ * After 2.0 it moved to its fork [Onigumo(鬼雲)](https://github.com/k-takata/Onigmo).
+
 ## clone vs. dup
 * [initialize_copy document](http://doc.ruby-lang.org/ja/2.0.0/method/Object/i/initialize_copy.html)
-* clone copies meta info of the object.
+* clone copies meta info of the objects too.
 * dup doesn't copy meta info.
 
 ## rubyspec
@@ -53,7 +58,7 @@
 * [writing native gem](http://patshaughnessy.net/2011/10/31/dont-be-terrified-of-building-native-extensions)
 * [extending ruby 1.9(pdf)](http://media.pragprog.com/titles/ruby3/ext_ruby.pdf)
 * It's difficult to use with C++ because methods cannot have free variables.
-  * using '''method_missing''' maybe easier but little slow than defining method
+  * using ```method_missing``` maybe easier but little slow than defining method
   * So it needs to use MACRO like __COUNTER__ or __LINE__
   * [rubybind](http://sourceforge.net/projects/rubybind/)
 * what Object.new does
