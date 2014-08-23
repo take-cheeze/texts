@@ -1,4 +1,5 @@
 * Software to view HTML
+* [Modifying referer for ameblo in feed.ly.](http://junkyard-scrap.blogspot.jp/2013/07/google-chrome-feedlyameba.html)
 
 ## Extending
 
