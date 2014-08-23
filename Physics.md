@@ -1,6 +1,11 @@
 * [OA pinafore](http://shigeo-t.hatenablog.com/entry/2013/10/11/105004)
  * Good radio wave blocker.
 
+## [Bullet Physics](http://bulletphysics.org/)
+* [Repository of bullet 3.](https://github.com/bulletphysics/bullet3)
+* Version 2 vs 3
+ * In version 3 it had some rewrite for OpenCL and GPU architecture.
+
 ## Seebeck effect 
 * Same as Thermocouple.
 * Use in thermoelectric generator.
