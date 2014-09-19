@@ -1,5 +1,9 @@
 * [unity builds article](http://buffered.io/posts/the-magic-of-unity-builds)
 
+## pkg-config
+* [Getting default pkg-config search path.](http://askubuntu.com/questions/210210/pkg-config-path-environment-variable)
+  * `pkg-config --variable pc_path pkg-config`
+
 ## Finding linked library in executable
 * ldd
   * can be used in Linux
