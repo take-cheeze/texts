@@ -20,3 +20,10 @@
 * Thanks to the following 2 patches:
   * [CoreServices dependency remove](https://github.com/joyent/libuv/pull/243)
   * [CoreFoundation dependency remove](https://github.com/joyent/libuv/pull/898)
+
+## Version notes
+
+### libuv-v1.0.0-rc1
+* Release candidate of v1.0.0(New major stable release).
+* Basically it's based on 0.11.x libuv.
+* New API [`uv_fileno`](https://github.com/joyent/libuv/commit/4ca9a363897cfa60f4e2229e4f15ac5abd7fd103).
