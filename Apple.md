@@ -4,11 +4,15 @@
 * [DYLD](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/dyld.1.html)
  * Has documents of dyld environment variables.
 
+## iTunes
+Metadata:
+* [mp4v2 metadata](https://code.google.com/p/mp4v2/wiki/iTunesMetadata)
+* [ffmpeg metadata](http://wiki.multimedia.cx/index.php?title=FFmpeg_Metadata)
+
 ## iCloud
 * cloud service of Apple
 * used as external storage of iOS
 * [mail server configuration](http://support.apple.com/kb/HT4864)
-
 
 ## [Metal](https://developer.apple.com/library/prerelease/ios/documentation/Metal/Reference/MetalShadingLanguageGuide/Introduction/Introduction.html)
 * New shading language for OS X and iOS.
