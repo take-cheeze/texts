@@ -9,6 +9,7 @@ Applications of RTMPDump:
   * Ruby script to record [らじる★らじる(NHK)](http://www3.nhk.or.jp/netradio/).
   * Based on ripdiko.
 * [agqr.rb](https://gist.github.com/ybenjo/9904543)
+  * [Article](http://yagays.github.io/blog/2014/04/01/agqr-recording-script/).
   * Ruby script to record [超！A&G](http://www.agqr.jp/).
   * Uses yaml to set record time.
 
