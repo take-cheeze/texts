@@ -18,3 +18,4 @@ Streaming technology that is good in caching.
 Could be used in flash.
 To download it without flash use [AdobeHDS.php](https://github.com/K-S-V/Scripts/blob/master/AdobeHDS.php).
 To deploy a server see [this](http://d.conma.me/entry/20100622/1277200563) article.
+There is ruby implementation of downloader called [blued](https://github.com/simongregory/glued).
