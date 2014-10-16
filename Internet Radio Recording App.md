@@ -33,18 +33,25 @@ Most use rtmp streams.
 * [ruby-librtmp](https://github.com/plainprogrammer/ruby-librtmp)
   * Ruby librtmp binding.
 
-## Fetching program table.
+## Fetching schedule.
 * Korec should be a good example.
-* [超A&G program table](http://www.agqr.jp/timetable/digital-mf.php)
+* [超A&G schedule](http://www.agqr.jp/timetable/digital-mf.php).
   * Guest information needs to be fetched from `#guestinfo` of [root page](http://www.agqr.jp/index.php).
+  * [Unofficial schedule](http://www26.atwiki.jp/cho-agqr/pages/65.html).
+* [Schedule of ekoe.jp](http://ekoe.jp/schedule/)
+* Should have recording based on personality or program name.
 
 ## Encoding downloaded files.
 * Use [ffmpeg](https://www.ffmpeg.org/).
-* flv or mp3s should be always encoded to m4a or m4v.
+* flv or mp3 should be always encoded to m4a or m4v.
 
 ## Saving encoded files.
 * File name should contain service, program name(or channel), count.
 * Wants support of transfering to iTunes or Podcast.
 
+## Recorded radio player.
+* Should have play speed changer.
+* Should have unplay playlist player.
+
 ## Implementing app.
-* 
+* Use Qt. So use C++ to write app.
