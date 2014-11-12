@@ -10,7 +10,10 @@
 * [uv.h](https://github.com/joyent/libuv/blob/master/include/uv.h)
 * [uvbook](http://nikhilm.github.io/uvbook/)
 * [libuv-dox](https://github.com/thlorenz/libuv-dox)
-  * Better documentation of uv.h .
+ * Better documentation of uv.h .
+* [learnuv](https://github.com/thlorenz/learnuv)
+ * [learnuv gitbook](http://thlorenz.github.io/learnuv/book)
+ * libuv tutorial implemented with node.js.
 
 ## Bindings
 * [mruby binding](https://github.com/mattn/mruby-uv)
