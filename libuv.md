@@ -4,6 +4,10 @@
 * [About serial port support.](https://github.com/joyent/node/issues/4092)
 * [Simple HTTP server using libuv](https://github.com/mattn/http-server/blob/master/server.c)
 
+## Taking benchmark
+* In [mruby-uv#56](https://github.com/mattn/mruby-uv/issues/56) there is an example of a benchmark.
+* In [this page](http://www.techempower.com/benchmarks/#section=code) there is a spec of benchmark.
+
 ## Document
 * [Official documentation](http://libuv.readthedocs.org/en/latest/)
  * uv.h documentation will be deprecated.
