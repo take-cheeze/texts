@@ -6,6 +6,12 @@
 * [LuaDist repository](https://github.com/LuaDist/lua)
 * [luvit](https://github.com/luvit/luvit)
 
+## LuaJIT
+* [LuaJIT IR dumping](http://wiki.luajit.org/SSA-IR-2.0#Example-IR-Dump)
+* [luajit-dump.el](https://github.com/SnabbCo/luajit-emacs/blob/master/luajit-dump.el)
+ * [screenshot](http://lukego.tumblr.com/post/105010736106)
+ *  Major mode for viewing LuaJIT compiler traces.
+
 ## Document
 * [Lua 5.2 Reference](http://www.lua.org/manual/5.2/manual.html)
 * [Lua 5.1 Reference](http://www.lua.org/manual/5.1/manual.html)
