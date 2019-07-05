@@ -15,3 +15,4 @@
 
 ## TinyFPGA A1
 - [Instruction](https://tinyfpga.com/a-series-guide.html)
+- [Open Sourced Design](https://github.com/tinyfpga/TinyFPGA-A-Series)
